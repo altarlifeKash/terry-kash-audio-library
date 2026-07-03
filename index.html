@@ -14,8 +14,6 @@
     margin: 0;
     min-height: 100vh;
     background: #05070d;
-    font-family: Arial, sans-serif;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,58 +29,12 @@
     object-fit: contain;
     object-position: center;
     display: block;
+    transition: filter .3s ease;
+    cursor: pointer;
   }
 
-  .enter-area {
-    position: absolute;
-    left: 16px;
-    right: 16px;
-    bottom: 24px;
-    text-align: center;
-    z-index: 2;
-  }
-
-  .enter-button {
-    display: inline-block;
-    text-decoration: none;
-    color: #1a1005;
-    background: linear-gradient(180deg, #fff1a8 0%, #f4c45b 45%, #b77218 100%);
-    border: 2px solid rgba(255, 245, 190, 0.95);
-    border-radius: 16px;
-    padding: 14px 28px;
-    font-weight: 900;
-    font-size: clamp(20px, 5vw, 30px);
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    box-shadow: 0 0 24px rgba(244,196,91,0.75);
-  }
-
-  .enter-button:hover {
-    transform: scale(1.03);
-  }
-
-  .caption {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #fff8da;
-    text-shadow: 0 2px 8px black;
-  }
-
-  .language {
-    margin-top: 7px;
-    font-size: 13px;
-    color: #56e6ff;
-    text-shadow: 0 2px 8px black;
-  }
-
-  @media (max-width: 480px) {
-    .enter-area {
-      bottom: 18px;
-    }
-
-    .enter-button {
-      padding: 12px 22px;
-    }
+  .poster:hover {
+    filter: brightness(1.05);
   }
 </style>
 </head>
