@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Terry Kash Audio Library</title>
+<style>
+  :root {
+    --gold: #f4c45b;
+    --deep: #070b12;
+    --blue: #0d1f33;
+    --cyan: #56e6ff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at center, rgba(244,196,91,0.18), transparent 34%),
+      linear-gradient(180deg, #09111f 0%, #03060b 100%);
+    font-family: Georgia, "Times New Roman", serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+  }
+
+  .page {
+    width: min(100%, 520px);
+    min-height: 92vh;
+    position: relative;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 35px 90px rgba(0,0,0,0.75);
+    border: 1px solid rgba(244,196,91,0.45);
+    background: #070b12;
+  }
+
+  .poster-link {
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+  }
+
+  .poster {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.92) contrast(1.08);
+    animation: slowPush 12s ease-in-out infinite alternate;
+  }
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    background:
+      linear-gradient(180deg, rgba(0,0,0,0.34) 0%, transparent 32%, transparent 62%, rgba(0,0,0,0.62) 100%);
+  }
+
+  .top-title {
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    z-index: 3;
+    text-shadow: 0 4px 18px rgba(0,0,0,0.95);
+    pointer-events: none;
+  }
+
+  .top-title .small {
+    letter-spacing: 6px;
+    font-size: 13px;
+    color: #fff8da;
+  }
+
+  .top-title h1 {
+    margin: 8px 0 0;
+    font-size: clamp(30px, 8vw, 48px);
+    line-height: .92;
+    color: var(--gold);
+  }
+
+  .top-title .sub {
+    margin-top: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: var(--cyan);
+    text-transform: uppercase;
+  }
+
+  .enter-area {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    bottom: 34px;
+    z-index: 4;
+    text-align: center;
+  }
+
+  .enter-button {
+    display: inline-block;
+    pointer-events: auto;
+    text-decoration: none;
+    color: #171008;
+    background: linear-gradient(180deg, #fff2ad 0%, var(--gold) 44%, #b77218 100%);
+    border: 2px solid rgba(255,245,190,.9);
+    border-radius: 18px;
+    padding: 18px 34px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: clamp(22px, 6vw, 34px);
+    letter-spacing: 2px;
+    box-shadow:
+      0 0 24px rgba(244,196,91,0.85),
+      0 0 60px rgba(244,196,91,0.35),
+      inset 0 2px 0 rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    animation: buttonPulse 2.2s ease-in-out infinite;
+  }
+
+  .enter-button:hover {
+    transform: scale(1.04);
+    box-shadow:
+      0 0 34px rgba(244,196,91,1),
+      0 0 85px rgba(86,230,255,0.45),
+      inset 0 2px 0 rgba(255,255,255,0.75);
+  }
+
+  .caption {
+    margin-top: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #fff8da;
+    text-shadow: 0 3px 12px black;
+  }
+
+  .language {
+    margin-top: 8px;
+    font-family: Arial, sans-serif;
+    color: var(--cyan);
+    font-size: 13px;
+    letter-spacing: .8px;
+    text-shadow: 0 3px 12px black;
+  }
+
+  @keyframes buttonPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.035); }
+  }
+
+  @keyframes slowPush {
+    from { transform: scale(1); }
+    to { transform: scale(1.035); }
+  }
+
+  @media (max-width: 480px) {
+    body { padding: 0; }
+    .page {
+      width: 100%;
+      min-height: 100vh;
+      border-radius: 0;
+      border: none;
+    }
+    .enter-area { bottom: 28px; }
+  }
+</style>
+</head>
+<body>
+  <main class="page" aria-label="The Terry Kash Audio Library landing page">
+    <a class="poster-link" href="https://terrykash.bandcamp.com" target="_blank" rel="noopener" aria-label="Enter the Terry Kash Audio Library"></a>
+
+    <img class="poster" src="terry_kash_library_enter_poster.png" alt="The Terry Kash Audio Library" />
+
+    <div class="overlay"></div>
+
+    <section class="top-title">
+      <div class="small">WELCOME TO</div>
+      <h1>THE TERRY KASH<br />AUDIO LIBRARY</h1>
+      <div class="sub">Music • Audiobooks • Bible Teaching • Stories</div>
+    </section>
+
+    <section class="enter-area">
+      <a class="enter-button" href="https://terrykash.bandcamp.com" target="_blank" rel="noopener">
+        Enter the Library
+      </a>
+      <div class="caption">Discover something new every week</div>
+      <div class="language">English • Spanish • Mandarin • Armenian • and more</div>
+    </section>
+  </main>
+</body>
+</html>
