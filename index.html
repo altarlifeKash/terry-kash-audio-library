@@ -23,7 +23,7 @@
     width: min(100%, 800px);
   }
 
-  .poster {
+.poster {
     width: 100%;
     height: 100vh;
     object-fit: contain;
@@ -31,10 +31,22 @@
     display: block;
     transition: filter .3s ease;
     cursor: pointer;
-  }
+    animation: gentleFloat 10s ease-in-out infinite;
+}
 
-  .poster:hover {
+.poster:hover {
     filter: brightness(1.05);
+}
+
+@keyframes gentleFloat {
+    0%, 100% {
+        transform: translateY(0px) scale(1);
+    }
+
+    50% {
+        transform: translateY(-4px) scale(1.01);
+    }
+}
   }
 </style>
 </head>
