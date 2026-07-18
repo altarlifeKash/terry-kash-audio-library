@@ -5,8 +5,6 @@
   var statusMessage = document.getElementById("status-message");
   var statusPanel = document.getElementById("catalog-status");
   var categoryCards = document.querySelectorAll("[data-category]");
-  var posterEntrance = document.querySelector(".poster-enter-link");
-  var librarySection = document.getElementById("library-categories");
   var year = document.getElementById("current-year");
 
   if (year) {
@@ -33,17 +31,6 @@
       }, 450);
     });
   });
-
-  if (posterEntrance && librarySection) {
-    posterEntrance.addEventListener("keydown", function (event) {
-      if (event.key !== "Enter" && event.key !== " ") {
-        return;
-      }
-
-      event.preventDefault();
-      librarySection.scrollIntoView({ behavior: "smooth", block: "start" });
-    });
-  }
 
   if (window.location.protocol !== "file:") {
     fetch("data/library.json")

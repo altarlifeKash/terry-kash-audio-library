@@ -9,8 +9,10 @@ Bandcamp remains the official listening and purchasing destination:
 
 ## Previewing the site
 
-Open `index.html` directly in a browser for a quick local preview. The homepage
-is designed to work from a `file://` URL as well as through GitHub Pages.
+Open `index.html` directly in a browser for a quick preview of the entrance page.
+Selecting the poster's “Enter the Library” area opens `library.html`, which
+contains the Phase One category homepage. Both pages work from `file://` URLs
+as well as through GitHub Pages.
 
 For testing catalog loading locally, serve the repository with any simple static
 web server and open the local URL it provides. No server is needed in production
@@ -45,7 +47,10 @@ and release date fields rather than duplicating entries.
 
 ## Files
 
-- `index.html` contains the semantic page structure and content.
+- `index.html` is the full-window poster entrance page.
+- `entrance.css` positions the original poster and its accessible entrance hotspot.
+- `entrance.js` provides explicit keyboard activation for the entrance hotspot.
+- `library.html` contains the Phase One library homepage and category cards.
 - `styles.css` contains the responsive design and accessibility states.
 - `script.js` handles category feedback, the current year, and catalog loading.
 - `data/library.json` contains release metadata.

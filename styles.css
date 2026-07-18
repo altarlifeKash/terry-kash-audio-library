@@ -68,7 +68,7 @@ img {
 }
 
 .site-header,
-.hero,
+.library-intro,
 .library,
 .site-footer {
   width: min(calc(100% - 2rem), var(--max-width));
@@ -105,13 +105,21 @@ img {
   font-family: Georgia, "Times New Roman", serif;
 }
 
-.hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(260px, 0.7fr);
-  gap: clamp(2.5rem, 7vw, 7rem);
-  align-items: center;
-  min-height: calc(100vh - 5.5rem);
-  padding-block: clamp(3.5rem, 8vw, 7rem);
+.back-link {
+  color: var(--gold-light);
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-underline-offset: 0.25em;
+}
+
+.back-link:hover {
+  color: #fff2ca;
+  text-decoration: underline;
+}
+
+.library-intro {
+  padding-block: clamp(4rem, 10vw, 8rem);
 }
 
 .eyebrow {
@@ -155,44 +163,6 @@ h1 {
   color: var(--muted);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
-}
-
-.hero-art {
-  margin: 0;
-}
-
-.poster-frame {
-  position: relative;
-  overflow: hidden;
-}
-
-.poster-frame img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-.poster-enter-link {
-  position: absolute;
-  top: 66.2%;
-  left: 33%;
-  width: 34%;
-  height: 14.2%;
-  border-radius: 0.8rem;
-}
-
-.poster-enter-link:focus-visible {
-  outline: 4px solid #ffffff;
-  outline-offset: -7px;
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.hero-art figcaption {
-  margin-top: 1rem;
-  color: var(--muted);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.78rem;
-  text-align: center;
 }
 
 .library {
@@ -380,20 +350,6 @@ h1 {
 }
 
 @media (max-width: 860px) {
-  .hero {
-    grid-template-columns: 1fr;
-    min-height: auto;
-  }
-
-  .hero-copy {
-    max-width: 760px;
-  }
-
-  .hero-art {
-    width: min(100%, 430px);
-    margin-inline: auto;
-  }
-
   .category-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -402,7 +358,7 @@ h1 {
 
 @media (max-width: 580px) {
   .site-header,
-  .hero,
+  .library-intro,
   .library,
   .site-footer {
     width: min(calc(100% - 1.25rem), var(--max-width));
@@ -422,7 +378,7 @@ h1 {
     font-size: 0.78rem;
   }
 
-  .hero {
+  .library-intro {
     padding-block: 3rem 4.5rem;
   }
 
