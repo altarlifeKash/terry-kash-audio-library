@@ -19,6 +19,7 @@ The original public Bandcamp grid supplied 141 releases. Three additional owner-
 ## Review summary
 
 - Blank language values: **11**
+- Owner-classified Tagalog songs: **1**
 - Blank descriptions: **45**
 - Missing release dates: **0**
 - Missing artwork URLs: **0**

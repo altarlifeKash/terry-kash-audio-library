@@ -17,7 +17,8 @@ This review covers all **133 songs** currently stored in `data/library.json`. Th
 - Spanish: **4**
 - Chinese: **2**
 - Urdu: **1**
-- Other: **1**
+- Tagalog: **1**
+- Other: **0**
 - Unclassified: **0**
 
 ## Song-by-song review
@@ -27,7 +28,7 @@ This review covers all **133 songs** currently stored in `data/library.json`. Th
 | Կենաց Ծառը | Armenian | Armenian | https://terrykash.bandcamp.com/track/--4 | Owner-confirmed Armenian recording; Bandcamp title and lyrics also use Armenian script. |
 | Իմ Դիմանկարը (Հայերեն տարբերակ) | Armenian | Armenian | https://terrykash.bandcamp.com/track/--3 | Owner-confirmed Armenian recording; Bandcamp title and lyrics also use Armenian script. |
 | Հայր իմ (Hayr Im) – My Father | Armenian | Armenian | https://terrykash.bandcamp.com/track/hayr-im-my-father | Owner-confirmed Armenian recording. |
-| Ang Pintor ng Buhay Ko | Other | Other | https://terrykash.bandcamp.com/track/ang-pintor-ng-buhay-ko | Owner-reviewed — bilingual Tagalog/English; normalized to Other for filtering. |
+| Ang Pintor ng Buhay Ko | Tagalog | Tagalog | https://terrykash.bandcamp.com/track/ang-pintor-ng-buhay-ko | Owner-confirmed Tagalog recording. |
 | Hopscotch Hermeneutic | English | English | https://terrykash.bandcamp.com/track/hopscotch-hermeneutic | Owner-reviewed — current catalog language retained. |
 | More Like You! | English | English | https://terrykash.bandcamp.com/track/more-like-you | Owner-reviewed — current catalog language retained. |
 | Kononia | Spanish | Spanish | https://terrykash.bandcamp.com/track/kononia | Owner-reviewed catalog value; Bandcamp description and lyrics are Spanish. |

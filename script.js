@@ -178,7 +178,6 @@
       var language = String(song.language || "").trim();
       var languageMatches =
         activeLanguage === "all" ||
-        (activeLanguage === "Other" && (!language || language === "Other")) ||
         language === activeLanguage;
       var searchMatches =
         !query ||
