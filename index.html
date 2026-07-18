@@ -1,65 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>The Terry Kash Audio Library</title>
-
-<style>
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-    margin: 0;
-    min-height: 100vh;
-    background: #05070d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .page {
-    width: min(100%, 800px);
-  }
-
-.poster {
-    width: 100%;
-    height: 100vh;
-    object-fit: contain;
-    object-position: center;
-    display: block;
-    transition: filter .3s ease;
-    cursor: pointer;
-    animation: gentleFloat 10s ease-in-out infinite;
-}
-
-.poster:hover {
-    filter: brightness(1.05);
-}
-
-@keyframes gentleFloat {
-    0%, 100% {
-        transform: translateY(0px) scale(1);
-    }
-
-    50% {
-        transform: translateY(-4px) scale(1.01);
-    }
-}
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="The Terry Kashian Library — songs, stories, audiobooks, teachings, and multilingual works."
+  />
+  <title>The Terry Kashian Library</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-  <main class="page">
-    <a href="https://terrykash.bandcamp.com" target="_blank" rel="noopener">
-      <img
-        class="poster"
-        src="terry_kash_library_enter_poster.png"
-        alt="The Terry Kash Audio Library"
-      />
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="The Terry Kashian Library home">
+      <span class="brand-mark" aria-hidden="true">TK</span>
+      <span>The Terry Kashian Library</span>
     </a>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Music · Word · Faith</p>
+        <h1 id="hero-title">The Terry Kashian Library</h1>
+        <p class="subtitle">Songs, stories, audiobooks, teachings, and multilingual works.</p>
+        <p class="intro">
+          A growing collection created to encourage the spirit, share timeless truths,
+          and carry meaningful stories across generations and languages.
+        </p>
+      </div>
+
+      <figure class="hero-art">
+        <div class="poster-frame">
+          <img
+            src="terry_kash_library_enter_poster.png"
+            alt="Illustrated poster for The Terry Kash Audio Library"
+            width="1024"
+            height="1536"
+          />
+          <a
+            class="poster-enter-link"
+            href="#library-categories"
+            aria-label="Enter the Terry Kashian Library"
+          ></a>
+        </div>
+        <figcaption>Select “Enter the Library” to explore the collection.</figcaption>
+      </figure>
+    </section>
+
+    <section class="library" id="library-categories" aria-labelledby="library-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Explore the collection</p>
+          <h2 id="library-title">Find something for the journey</h2>
+        </div>
+        <p>Browse by format, language, or what has just arrived.</p>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card" href="#catalog-status" data-category="Songs &amp; Tracks">
+          <span class="category-icon icon-burgundy" aria-hidden="true">♪</span>
+          <span class="coming-soon">Coming Soon</span>
+          <h3>Songs &amp; Tracks</h3>
+          <p>Discover individual songs, spoken pieces, and musical reflections.</p>
+          <span class="card-action">Explore category <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="category-card" href="#catalog-status" data-category="Albums">
+          <span class="category-icon icon-blue" aria-hidden="true">◎</span>
+          <span class="coming-soon">Coming Soon</span>
+          <h3>Albums</h3>
+          <p>Experience complete collections shaped around a shared theme or season.</p>
+          <span class="card-action">Explore category <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="category-card" href="#catalog-status" data-category="Audiobooks">
+          <span class="category-icon icon-gold" aria-hidden="true">▥</span>
+          <span class="coming-soon">Coming Soon</span>
+          <h3>Audiobooks</h3>
+          <p>Listen to longer narrated works created for thoughtful, unhurried moments.</p>
+          <span class="card-action">Explore category <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="category-card" href="#catalog-status" data-category="Stories">
+          <span class="category-icon icon-gold" aria-hidden="true">✦</span>
+          <span class="coming-soon">Coming Soon</span>
+          <h3>Stories</h3>
+          <p>Enter faith-filled tales and reflections for listeners of every generation.</p>
+          <span class="card-action">Explore category <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="category-card" href="#catalog-status" data-category="Languages">
+          <span class="category-icon icon-burgundy" aria-hidden="true">文</span>
+          <span class="coming-soon">Coming Soon</span>
+          <h3>Languages</h3>
+          <p>Find multilingual works that carry music and meaning across cultures.</p>
+          <span class="card-action">Explore category <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="category-card" href="#catalog-status" data-category="New Releases">
+          <span class="category-icon icon-blue" aria-hidden="true">✺</span>
+          <span class="coming-soon">Coming Soon</span>
+          <h3>New Releases</h3>
+          <p>See the newest additions to the Terry Kashian Library in one place.</p>
+          <span class="card-action">Explore category <span aria-hidden="true">→</span></span>
+        </a>
+      </div>
+
+      <div class="catalog-status" id="catalog-status" tabindex="-1" aria-live="polite">
+        <span class="status-symbol" aria-hidden="true">✦</span>
+        <div>
+          <h2 id="status-title">The collection is being prepared</h2>
+          <p id="status-message">
+            Catalog entries are coming soon. In the meantime, visit Bandcamp to hear
+            Terry Kash’s available work.
+          </p>
+        </div>
+      </div>
+    </section>
+
   </main>
+
+  <footer class="site-footer">
+    <p>© <span id="current-year">2026</span> The Terry Kashian Library</p>
+    <a
+      class="footer-bandcamp"
+      href="https://terrykash.bandcamp.com"
+      target="_blank"
+      rel="noopener"
+    >Visit Terry Kash on Bandcamp <span aria-hidden="true">↗</span></a>
+  </footer>
 </body>
 </html>
