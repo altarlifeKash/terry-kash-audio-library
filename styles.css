@@ -70,6 +70,7 @@ img {
 .site-header,
 .library-intro,
 .library,
+.songs-catalog,
 .site-footer {
   width: min(calc(100% - 2rem), var(--max-width));
   margin-inline: auto;
@@ -257,7 +258,8 @@ h1 {
   background: #8b6823;
 }
 
-.coming-soon {
+.coming-soon,
+.catalog-count {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -270,6 +272,11 @@ h1 {
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.catalog-count {
+  border-color: rgba(54, 93, 196, 0.75);
+  background: rgba(35, 63, 145, 0.32);
 }
 
 .category-card h3 {
@@ -325,6 +332,241 @@ h1 {
   font-size: 0.86rem;
 }
 
+.is-hidden {
+  display: none !important;
+}
+
+.songs-catalog {
+  padding-block: clamp(3rem, 7vw, 6rem);
+  border-top: 1px solid var(--line);
+}
+
+.return-link,
+.show-more {
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--gold-light);
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.return-link {
+  padding: 0.65rem 1rem;
+  font-size: 0.78rem;
+}
+
+.return-link:hover,
+.show-more:hover {
+  background: rgba(215, 173, 85, 0.12);
+  color: #fff2ca;
+}
+
+.songs-heading {
+  display: flex;
+  gap: 2rem;
+  align-items: end;
+  justify-content: space-between;
+  margin: 2.4rem 0 1.8rem;
+}
+
+.songs-heading h2 {
+  margin: 0;
+  font-size: clamp(2.4rem, 6vw, 4.6rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.song-total {
+  flex: 0 0 auto;
+  margin: 0;
+  color: var(--gold-light);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.song-search {
+  max-width: 640px;
+  margin-bottom: 1rem;
+}
+
+.song-search label {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.song-search input {
+  width: 100%;
+  min-height: 3.25rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(240, 211, 140, 0.42);
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.065);
+  color: var(--ink);
+  font: 1rem Arial, Helvetica, sans-serif;
+}
+
+.song-search input::placeholder {
+  color: #aaa29a;
+}
+
+.language-filters {
+  margin: 0 0 1.2rem;
+  padding: 0;
+  border: 0;
+}
+
+.language-filters legend {
+  margin-bottom: 0.55rem;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.language-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.language-filter-buttons button {
+  min-height: 2.35rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(240, 211, 140, 0.35);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.language-filter-buttons button:hover {
+  border-color: var(--gold);
+  color: var(--ink);
+}
+
+.language-filter-buttons button[aria-pressed="true"] {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #171005;
+}
+
+.catalog-feedback {
+  min-height: 1.5rem;
+  margin: 0 0 1.4rem;
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.82rem;
+}
+
+.song-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.song-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.07), var(--surface));
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.2);
+}
+
+.song-artwork-frame {
+  display: grid;
+  width: 100%;
+  aspect-ratio: 1;
+  place-items: center;
+  padding: clamp(0.65rem, 1.5vw, 1rem);
+  overflow: hidden;
+  background: #0a0b0f;
+}
+
+.song-artwork {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.song-card-content {
+  display: flex;
+  min-height: 250px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.15rem;
+}
+
+.song-card h3 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.song-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.8rem;
+  margin-top: 0.55rem;
+  color: var(--gold-light);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.song-card p {
+  margin: 0.9rem 0 1.2rem;
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.bandcamp-button {
+  margin-top: auto;
+  padding: 0.62rem 0.8rem;
+  border: 1px solid var(--gold);
+  border-radius: 0.35rem;
+  color: var(--gold-light);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.bandcamp-button:hover {
+  background: var(--gold);
+  color: #171005;
+}
+
+.show-more-wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.show-more {
+  min-width: 12rem;
+  padding: 0.85rem 1.4rem;
+  font-size: 0.85rem;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -350,7 +592,8 @@ h1 {
 }
 
 @media (max-width: 860px) {
-  .category-grid {
+  .category-grid,
+  .song-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -360,6 +603,7 @@ h1 {
   .site-header,
   .library-intro,
   .library,
+  .songs-catalog,
   .site-footer {
     width: min(calc(100% - 1.25rem), var(--max-width));
   }
@@ -387,6 +631,7 @@ h1 {
   }
 
   .section-heading,
+  .songs-heading,
   .site-footer {
     align-items: flex-start;
     flex-direction: column;
@@ -398,6 +643,14 @@ h1 {
 
   .category-grid {
     grid-template-columns: 1fr;
+  }
+
+  .song-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .song-card-content {
+    min-height: 0;
   }
 
   .category-card {

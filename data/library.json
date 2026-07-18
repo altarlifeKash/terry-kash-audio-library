@@ -1,3 +1,1836 @@
 {
-  "releases": []
+  "releases": [
+    {
+      "id": "armenian-tree-of-life",
+      "title": "Կենաց Ծառը",
+      "type": "song",
+      "language": "Armenian",
+      "releaseDate": "2026-07-08",
+      "description": "Tree of Life (Կենաց Ծառը) is a journey through the grand story of redemption—from Eden's lost garden to the living waters flowing from the Tree of Life.",
+      "artwork": "https://f4.bcbits.com/img/a0793082996_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/--4",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "armenian-my-portrait",
+      "title": "Իմ Դիմանկարը (Հայերեն տարբերակ)",
+      "type": "song",
+      "language": "Armenian",
+      "releaseDate": "2026-07-04",
+      "description": "Մեզանից յուրաքանչյուրը սկսում է նկարել իր կյանքի դիմանկարը։",
+      "artwork": "https://f4.bcbits.com/img/a2056072020_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/--3",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "hayr-im-my-father",
+      "title": "Հայր իմ (Hayr Im) – My Father",
+      "type": "song",
+      "language": "Armenian",
+      "releaseDate": "2026-06-29",
+      "description": "This is one of the most personal songs I have ever written.",
+      "artwork": "https://f4.bcbits.com/img/a3569174149_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/hayr-im-my-father",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "ang-pintor-ng-buhay-ko",
+      "title": "Ang Pintor ng Buhay Ko",
+      "type": "song",
+      "language": "Other",
+      "releaseDate": "2026-06-21",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a1599482131_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/ang-pintor-ng-buhay-ko",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "hopscotch-hermeneutic",
+      "title": "Hopscotch Hermeneutic",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-21",
+      "description": "Hopscotch Hermeneutic is a lighthearted pop-prophecy satire inspired by decades of charts, timelines, headlines, blood moons, barcodes, and end-times speculation.",
+      "artwork": "https://f4.bcbits.com/img/a4142719629_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/hopscotch-hermeneutic",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "more-like-you",
+      "title": "More Like You!",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-21",
+      "description": "More Like You is a joyful anthem of spiritual growth inspired by the lives of Abraham, Isaac, and Jacob.",
+      "artwork": "https://f4.bcbits.com/img/a0045334148_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/more-like-you",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "kononia",
+      "title": "Kononia",
+      "type": "song",
+      "language": "Spanish",
+      "releaseDate": "2026-06-20",
+      "description": "Koinonía es una celebración de la vida que compartimos en Cristo.",
+      "artwork": "https://f4.bcbits.com/img/a4026740980_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/kononia",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-tree-of-life",
+      "title": "The Tree of Life",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-15",
+      "description": "The Tree of Life What was lost in the garden is restored through Christ.",
+      "artwork": "https://f4.bcbits.com/img/a1451612720_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-tree-of-life",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "yo-way-yo-way",
+      "title": "Yo-way! Yo-way! 祢的道路",
+      "type": "song",
+      "language": "Chinese",
+      "releaseDate": "2026-06-15",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0502236055_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/yo-way-yo-way",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "yo-way-2",
+      "title": "Yo Way 2",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-14",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a3429501505_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/yo-way-2",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "yo-way",
+      "title": "Yo Way!",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-14",
+      "description": "🌊 Yo Way 🌊 There comes a moment when we realize that chasing our own way has not brought the fulfillment we hoped it would.",
+      "artwork": "https://f4.bcbits.com/img/a1105431682_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/yo-way",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "audiobook-when-the-city-fell-matthew-24",
+      "title": "AudioBook: When The City Fell: Matthew 24",
+      "type": "audiobook",
+      "language": "",
+      "releaseDate": "2026-06-14",
+      "description": "WHEN THE CITY FELL A Historical Fiction Audiobook of the Days Before Jerusalem Fell By Terry Kashian Jerusalem still stood.",
+      "artwork": "https://f4.bcbits.com/img/a3432099022_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/audiobook-when-the-city-fell-matthew-24",
+      "featured": false,
+      "reviewFlags": [
+        "language"
+      ]
+    },
+    {
+      "id": "the-bride-adorn-lovely",
+      "title": "The Bride Adorn & Lovely",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-12",
+      "description": "The Bride Adorned and Lovely is a joyful celebration of God's eternal purpose revealed in Christ and expressed through His people.",
+      "artwork": "https://f4.bcbits.com/img/a2598490555_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-bride-adorn-lovely",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "splendid-city-life",
+      "title": "Splendid City Life",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-11",
+      "description": "\"Splendid City Life\" is a joyful celebration of God's holy city as a present spiritual reality experienced by His people today.",
+      "artwork": "https://f4.bcbits.com/img/a0612649860_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/splendid-city-life",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "audiobook-the-full-purpose-of-the-millennium",
+      "title": "Audiobook:The Full Purpose of the Millennium",
+      "type": "audiobook",
+      "language": "",
+      "releaseDate": "2026-06-11",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2031889430_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/audiobook-the-full-purpose-of-the-millennium",
+      "featured": false,
+      "reviewFlags": [
+        "language",
+        "description"
+      ]
+    },
+    {
+      "id": "a-vision-for-a-nation-2",
+      "title": "A Vision For A Nation",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-07",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a3598196950_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-vision-for-a-nation-2",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "a-vision-for-a-nation",
+      "title": "A Vision for a Nation",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-07",
+      "description": "A Vision for a Nation is a cinematic anthem and prayer for national renewal inspired by the timeless truths of Scripture.",
+      "artwork": "https://f4.bcbits.com/img/a0069465185_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-vision-for-a-nation",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-theosphere-in-him-we-live-and-move",
+      "title": "The Theosphere: In Him We Live and Move",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-06",
+      "description": "\"The Theosphere\" is a worship journey through three simple prayers: Fill us.",
+      "artwork": "https://f4.bcbits.com/img/a2326484582_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-theosphere-in-him-we-live-and-move",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "my-portrait-music-video",
+      "title": "My Portrait - Music Video",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-05",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2503888510_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/my-portrait-music-video",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "the-heavenly-vision-two-portals",
+      "title": "The Heavenly Vision: Two Portals",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-05",
+      "description": "The Heavenly Vision (Two Portals) What do Jeremiah's Potter's House and Ezekiel's River Chebar have in common?",
+      "artwork": "https://f4.bcbits.com/img/a3058741502_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-heavenly-vision-two-portals",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-anchor-of-our-souls",
+      "title": "The Anchor of Our Souls",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-02",
+      "description": "The Anchor of Our Souls Life has a way of pulling us in every direction.",
+      "artwork": "https://f4.bcbits.com/img/a1521468103_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-anchor-of-our-souls",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "braveheart",
+      "title": "BraveHeart",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-06-02",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2187680405_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/braveheart",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "two-promises-music-video",
+      "title": "Two Promises Music Video",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-31",
+      "description": "Two Promises (Music Video) What if the story of creation was also the story of your spiritual growth?",
+      "artwork": "https://f4.bcbits.com/img/a4034528365_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/two-promises-music-video",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "a-pile-of-stones-is-not-a-building",
+      "title": "A Pile of Stones is not a Building",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-30",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a4002002427_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-pile-of-stones-is-not-a-building",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "the-legend-of-don-crump",
+      "title": "The Legend of Don Crump",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-29",
+      "description": "The Legend of Don Crump is a lighthearted tribute to a friend who proves that passion never grows old.",
+      "artwork": "https://f4.bcbits.com/img/a3438043337_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-legend-of-don-crump",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-holy-city",
+      "title": "The Holy City",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-28",
+      "description": "“The Holy City” is a cinematic worship journey into the realized New Creation revealed in Revelation 21 and 22.",
+      "artwork": "https://f4.bcbits.com/img/a2844257769_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-holy-city",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "i-am-a-witness",
+      "title": "I Am A Witness",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-27",
+      "description": "“I Am a Witness” is a song about the moment everything changes when Christ calls your name.",
+      "artwork": "https://f4.bcbits.com/img/a3701573472_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/i-am-a-witness",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-portal-now-abides",
+      "title": "The Portal Now Abides",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-23",
+      "description": "“The Portal Now Abides” is a deeply experiential song about the unveiling of Christ within us as the true meeting place of Heaven and Earth.",
+      "artwork": "https://f4.bcbits.com/img/a1647325824_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-portal-now-abides",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-cross-and-fire",
+      "title": "The Cross and Fire",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-20",
+      "description": "“The Cross and Fire” was born out of a realization that changed the way I see the cross of Christ.",
+      "artwork": "https://f4.bcbits.com/img/a3577950489_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-cross-and-fire",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "--2",
+      "title": "我的画像",
+      "type": "song",
+      "language": "Chinese",
+      "releaseDate": "2026-05-19",
+      "description": "《我的画像》 My Portrait 这首歌讲述了一段从骄傲、自我挣扎，到完全交托与更新的旅程。 This song tells the journey from pride and self striving to surrender, restoration, and transformation.",
+      "artwork": "https://f4.bcbits.com/img/a1054112414_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/--2",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "-",
+      "title": "میری زندگی کی تصویر",
+      "type": "song",
+      "language": "Urdu",
+      "releaseDate": "2026-05-19",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a3759090414_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/-",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "i-am-a-worm-country-style-1980s",
+      "title": "I Am A Worm - Country Style 1980's",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-18",
+      "description": "This is the same words of my other song but in a 1980's country music style.",
+      "artwork": "https://f4.bcbits.com/img/a0141461929_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/i-am-a-worm-country-style-1980s",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "my-portrait",
+      "title": "My Portrait",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-18",
+      "description": "“My Portrait” is a song about the exhausting struggle of trying to paint our own lives through self effort, self image, ambition, fear, and striving.",
+      "artwork": "https://f4.bcbits.com/img/a1242192779_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/my-portrait",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "i-am-a-worm",
+      "title": "I Am A Worm",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-17",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a1770404753_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/i-am-a-worm",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "we-see-jesus",
+      "title": "We See Jesus",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-16",
+      "description": "“We See Jesus” is a song about Christ revealed through His people, the power of the second birth, and the glory of His indwelling life.",
+      "artwork": "https://f4.bcbits.com/img/a1601844735_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/we-see-jesus",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "healing-is-here",
+      "title": "Healing is Here",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-14",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0051594732_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/healing-is-here",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "victory-in-the-valley",
+      "title": "Victory in the Valley",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-12",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2599059063_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/victory-in-the-valley",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "surrender-is-more",
+      "title": "Surrender is More",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-12",
+      "description": "Surrender is More - This song is a map of the journey from the exhaustion of self-sufficiency to the expansive peace of yielding.",
+      "artwork": "https://f4.bcbits.com/img/a2282744983_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/surrender-is-more",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-lord-is-there",
+      "title": "The Lord is There",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-09",
+      "description": "“The Lord Is There” is a journey through the inward work of Christ and the unveiling of His life within a people.",
+      "artwork": "https://f4.bcbits.com/img/a1591607849_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-lord-is-there",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "pure-gold",
+      "title": "Pure Gold",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-08",
+      "description": "“Pure Gold” is a song about the beauty of Christ expressed through His people moving together in life, grace, and spiritual maturity.",
+      "artwork": "https://f4.bcbits.com/img/a2738699302_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/pure-gold",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "glory-glory-a-pool-shootin-story",
+      "title": "Glory, Glory A Pool Shootin' Story",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-07",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a1745457779_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/glory-glory-a-pool-shootin-story",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "psalm-62-waiting-on-god",
+      "title": "Psalm 62: Waiting on God",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-07",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a3898280563_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/psalm-62-waiting-on-god",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "one-life-in-all-2",
+      "title": "One Life In All",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-06",
+      "description": "One Life in All is a quiet journey into love, union, longing, and transformation.",
+      "artwork": "https://f4.bcbits.com/img/a0449807838_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/one-life-in-all-2",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-canopy",
+      "title": "The Canopy",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-05-05",
+      "description": "“The Canopy” is a journey out of the wilderness into rest.",
+      "artwork": "https://f4.bcbits.com/img/a2851049164_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-canopy",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-lambs-wife",
+      "title": "The Lamb's Wife",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-29",
+      "description": "The Lamb’s Wife This song unfolds a mystery that runs from the beginning to the fulfillment.",
+      "artwork": "https://f4.bcbits.com/img/a1993252649_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-lambs-wife",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-white-throne",
+      "title": "The White Throne",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-28",
+      "description": "The White Throne Decree is not a song of sentiment—it is a declaration.",
+      "artwork": "https://f4.bcbits.com/img/a3166796990_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-white-throne",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-books-were-opened",
+      "title": "The Books Were Opened",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-27",
+      "description": "“The Books Were Opened” is a meditation on the Great White Throne—not as distant abstraction, but as revealed reality.",
+      "artwork": "https://f4.bcbits.com/img/a3815334087_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-books-were-opened",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "my-sister-i-hold-you-up",
+      "title": "My Sister, I Hold You Up",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-23",
+      "description": "“My Sister, I Hold You Up” is a tribute to the quiet strength, humor, and love that holds a family together.",
+      "artwork": "https://f4.bcbits.com/img/a0148761823_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/my-sister-i-hold-you-up",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-valley-of-stones",
+      "title": "The Valley of Stones",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-23",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a3086888176_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-valley-of-stones",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "the-numbered-years",
+      "title": "The Numbered Years",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-18",
+      "description": "The House of Years is a cinematic journey through the architecture of the human spirit.",
+      "artwork": "https://f4.bcbits.com/img/a1080043509_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-numbered-years",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "healing-streams",
+      "title": "Healing Streams",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-15",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2052688704_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/healing-streams",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "streams-of-healing",
+      "title": "Streams of Healing",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-15",
+      "description": "Streams of Healing There are moments when words fail, when silence replaces laughter, and when the distance between hearts feels too wide to cross.",
+      "artwork": "https://f4.bcbits.com/img/a0030463566_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/streams-of-healing",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "he-made-room-for-all-to-see",
+      "title": "He Made Room For All To See",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-10",
+      "description": "He Made Room For All To See is a song born out of surrender, growth, and the quiet strength of trusting God when conflict arises.",
+      "artwork": "https://f4.bcbits.com/img/a3142853106_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/he-made-room-for-all-to-see",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "audiobook-the-eighth-day-realized",
+      "title": "AudioBook: The Eighth Day Realized",
+      "type": "audiobook",
+      "language": "",
+      "releaseDate": "2026-04-10",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2350705486_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/audiobook-the-eighth-day-realized",
+      "featured": false,
+      "reviewFlags": [
+        "language",
+        "description"
+      ]
+    },
+    {
+      "id": "my-little-hummingbird-yong-yong",
+      "title": "My Little Hummingbird: Yong Yong",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-07",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a3219873833_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/my-little-hummingbird-yong-yong",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "the-homer-hermeneutic",
+      "title": "The Homer Hermeneutic",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-07",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2104429233_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-homer-hermeneutic",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "an-easter-song-magnified-in-us",
+      "title": "An Easter Song: Magnified in US",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-06",
+      "description": "An Easter Song — Magnified in Us This is not just a song about the resurrection as an event.",
+      "artwork": "https://f4.bcbits.com/img/a1390690987_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/an-easter-song-magnified-in-us",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-two-promises",
+      "title": "The Two Promises",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-04-02",
+      "description": "“Two Promises” “Two Promises” is a song about what God has already finished—and what He is now forming in us.",
+      "artwork": "https://f4.bcbits.com/img/a1936192276_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-two-promises",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-missing-jewel",
+      "title": "The Missing Jewel",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-31",
+      "description": "The Missing Jewel Prophecy is everywhere right now.",
+      "artwork": "https://f4.bcbits.com/img/a1864365734_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-missing-jewel",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-staff-and-the-sword",
+      "title": "The Staff and The Sword",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-28",
+      "description": "“The Staff and the Sword” is a declaration of Christ’s finished victory and the call to step into the life that flows from it.",
+      "artwork": "https://f4.bcbits.com/img/a0687474797_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-staff-and-the-sword",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "b-s-biblical-stupidity-at-the-wheel-2",
+      "title": "B.S. Biblical Stupidity At The Wheel",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-27",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2961371375_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/b-s-biblical-stupidity-at-the-wheel-2",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "making-all-things-new",
+      "title": "Making All Things New",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-19",
+      "description": "“Making All Things New” is a song of awakening, growth, and shared life in Christ.",
+      "artwork": "https://f4.bcbits.com/img/a3342474415_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/making-all-things-new",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "yoked-to-you",
+      "title": "Yoked To You",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-19",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a4037432051_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/yoked-to-you",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "a-kings-story",
+      "title": "A King's Story",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-17",
+      "description": "A King’s Story – Terry Kashian This song reveals how God forms a true king.",
+      "artwork": "https://f4.bcbits.com/img/a1533999398_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-kings-story",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "open-the-door",
+      "title": "Open the Door",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-17",
+      "description": "“Open the Door” is a song for anyone who has ever felt the weight of regret, shame, or wondering where they truly belong.",
+      "artwork": "https://f4.bcbits.com/img/a0236063187_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/open-the-door",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "mama-i-miss-you-so",
+      "title": "Mama, I Miss You So",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-17",
+      "description": "This song was written for a dear friend’s daughter during one of the hardest seasons of her life after losing her mother.",
+      "artwork": "https://f4.bcbits.com/img/a2083298307_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/mama-i-miss-you-so",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-voice-in-the-desert",
+      "title": "The Voice in the Desert",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-16",
+      "description": "Thank you for listening to The Voice in the Desert.",
+      "artwork": "https://f4.bcbits.com/img/a1015202968_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-voice-in-the-desert",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "make-us-a-sanctuary-burning-inside",
+      "title": "Make Us A Sanctuary Burning Inside",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-14",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a3924548370_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/make-us-a-sanctuary-burning-inside",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "the-eighth-day-song",
+      "title": "The Eighth Day Song",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-06",
+      "description": "“The Eighth Day Song” celebrates the life of the Kingdom that has dawned in the risen Christ.",
+      "artwork": "https://f4.bcbits.com/img/a3676176783_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-eighth-day-song",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-voice-of-the-kingdom",
+      "title": "The Voice of the Kingdom",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-03-03",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2672587078_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-voice-of-the-kingdom",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "christ-dwells-in-us",
+      "title": "Christ Dwells In Us",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-02-23",
+      "description": "Christ Dwells in Us is a worship anthem celebrating the living reality of Christ in His people.",
+      "artwork": "https://f4.bcbits.com/img/a4013645670_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/christ-dwells-in-us",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "our-searching-hearts-found-rest",
+      "title": "Our Searching Hearts Found Rest",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-02-22",
+      "description": "There comes a moment when striving quiets and the heart finally comes home.",
+      "artwork": "https://f4.bcbits.com/img/a2523612783_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/our-searching-hearts-found-rest",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "flying-high",
+      "title": "Flying High",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-02-20",
+      "description": "“Flying High” is a song about the loving hand that refuses to leave us where we are.",
+      "artwork": "https://f4.bcbits.com/img/a3279016708_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/flying-high",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "from-dust-to-breath-a-lent-song",
+      "title": "From Dust to Breath: A Lent Song",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-02-19",
+      "description": "From Dust to Breath A Lent Song Released on Ash Wednesday, this song begins in the language of dust but refuses to end there.",
+      "artwork": "https://f4.bcbits.com/img/a1101773034_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/from-dust-to-breath-a-lent-song",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-valentine-for-all",
+      "title": "The Valentine For All",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-02-15",
+      "description": "The Valentine For All is my gift to you.",
+      "artwork": "https://f4.bcbits.com/img/a2942700542_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-valentine-for-all",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-inward-cross",
+      "title": "The Inward Cross",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-02-06",
+      "description": "The Inward Cross is a modern anthem that reframes the meaning of the cross from outward circumstance to inward work.",
+      "artwork": "https://f4.bcbits.com/img/a3648621768_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-inward-cross",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-organic-church",
+      "title": "The Organic Church",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-02-05",
+      "description": "The Organic Church is a song about life before systems learned how to preserve themselves.",
+      "artwork": "https://f4.bcbits.com/img/a0353260120_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-organic-church",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "audiobook-uncelebrated-record-the-organic-church",
+      "title": "Audiobook: Uncelebrated Record: The Organic Church",
+      "type": "audiobook",
+      "language": "",
+      "releaseDate": "2026-02-04",
+      "description": "Uncelebrated Record: The Organic Church This audiobook exists because you chose to give time and attention to a record that history itself rarely preserved.",
+      "artwork": "https://f4.bcbits.com/img/a4049191225_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/audiobook-uncelebrated-record-the-organic-church",
+      "featured": false,
+      "reviewFlags": [
+        "language"
+      ]
+    },
+    {
+      "id": "esther-chosen-for-the-hour",
+      "title": "Esther: Chosen For The Hour",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-02-03",
+      "description": "Esther: Chosen For The Hour is a lyrical journey through a kingdom of silent providence.",
+      "artwork": "https://f4.bcbits.com/img/a3146274650_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/esther-chosen-for-the-hour",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "timeless",
+      "title": "Timeless",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-29",
+      "description": "Timeless is a song about overcoming through quiet persuasion rather than visible proof.",
+      "artwork": "https://f4.bcbits.com/img/a0448304871_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/timeless",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "audiobook-church-history-series-george-m-ller-trust-without-leverage",
+      "title": "Audiobook: Church History Series: George Müller Trust Without Leverage",
+      "type": "audiobook",
+      "language": "",
+      "releaseDate": "2026-01-25",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a1357827338_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/audiobook-church-history-series-george-m-ller-trust-without-leverage",
+      "featured": false,
+      "reviewFlags": [
+        "language",
+        "description"
+      ]
+    },
+    {
+      "id": "audiobook-church-history-series-caspar-schwenckfeld-the-living-headship-of-christ",
+      "title": "Audiobook: Church History Series Caspar Schwenckfeld: The Living Headship of Christ",
+      "type": "audiobook",
+      "language": "",
+      "releaseDate": "2026-01-21",
+      "description": "Caspar Schwenckfeld: The Living Headship of Christ explores the life and witness of one of the Reformation’s most quietly influential figures.",
+      "artwork": "https://f4.bcbits.com/img/a3865341955_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/audiobook-church-history-series-caspar-schwenckfeld-the-living-headship-of-christ",
+      "featured": false,
+      "reviewFlags": [
+        "language"
+      ]
+    },
+    {
+      "id": "harness-of-the-lord",
+      "title": "Harness of the Lord",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-20",
+      "description": "Harness of the Lord is a country gospel ballad about strength brought into order, obedience without display, and purpose shaped by God’s direction.",
+      "artwork": "https://f4.bcbits.com/img/a3627228342_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/harness-of-the-lord",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "where-are-the-micaiahs-of-the-lord-god",
+      "title": "Where Are the Micaiahs of the Lord God",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-19",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a3998978631_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/where-are-the-micaiahs-of-the-lord-god",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "christ-in-his-body-here-today",
+      "title": "Christ in His Body: Here Today",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-19",
+      "description": "Christ in His Body (Here Today) is a proclamation of present-tense reality, not distant hope.",
+      "artwork": "https://f4.bcbits.com/img/a1819261493_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/christ-in-his-body-here-today",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "audiobook-are-you-an-apostle-faithful-to-the-revelation-of-the-apostles",
+      "title": "Audiobook: Are You An Apostle? Faithful to the Revelation of the Apostles",
+      "type": "audiobook",
+      "language": "",
+      "releaseDate": "2026-01-15",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0785214312_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/audiobook-are-you-an-apostle-faithful-to-the-revelation-of-the-apostles",
+      "featured": false,
+      "reviewFlags": [
+        "language",
+        "description"
+      ]
+    },
+    {
+      "id": "are-you-clothed-with-the-kingdom",
+      "title": "Are You Clothed With The Kingdom",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-11",
+      "description": "Clothed with the Kingdom is a song of identity and calling.",
+      "artwork": "https://f4.bcbits.com/img/a3855973800_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/are-you-clothed-with-the-kingdom",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "out-of-the-heart",
+      "title": "Out Of The Heart",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-11",
+      "description": "Out of the Heart is a prayer set to music.",
+      "artwork": "https://f4.bcbits.com/img/a3781062124_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/out-of-the-heart",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "entrance-to-the-kingdom",
+      "title": "Entrance To The Kingdom",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-11",
+      "description": "Entrance to the Kingdom is a testimony set to music.",
+      "artwork": "https://f4.bcbits.com/img/a2149047402_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/entrance-to-the-kingdom",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "zechariah-14-fulfilled",
+      "title": "Zechariah 14 Fulfilled",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-11",
+      "description": "Zechariah 14 Fulfilled is a song of contrast and conclusion.",
+      "artwork": "https://f4.bcbits.com/img/a2853496738_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/zechariah-14-fulfilled",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "animal-farm-songs-from-the-broken-windmill",
+      "title": "Animal Farm: Songs From the Broken Windmill",
+      "type": "album",
+      "language": "",
+      "releaseDate": "2026-01-09",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0047752789_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/animal-farm-songs-from-the-broken-windmill",
+      "featured": false,
+      "reviewFlags": [
+        "language",
+        "description"
+      ]
+    },
+    {
+      "id": "the-lake-of-fire-wrath-has-ended",
+      "title": "The Lake of Fire: Wrath Has Ended",
+      "type": "album",
+      "language": "",
+      "releaseDate": "2026-01-08",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2505842972_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/the-lake-of-fire-wrath-has-ended",
+      "featured": false,
+      "reviewFlags": [
+        "language",
+        "description"
+      ]
+    },
+    {
+      "id": "wrath-has-ended",
+      "title": "Wrath Has Ended",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-04",
+      "description": "Wrath Has Ended is a declaration of completion.",
+      "artwork": "https://f4.bcbits.com/img/a2735863458_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/wrath-has-ended",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-power-of-god",
+      "title": "The Power of God",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-01",
+      "description": "The Power of God is a declaration of divine life breaking into human weakness.",
+      "artwork": "https://f4.bcbits.com/img/a3121399455_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-power-of-god",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-alabaster-heart",
+      "title": "The Alabaster Heart",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-01-01",
+      "description": "My Alabaster Heart is a worship offering shaped by surrender, gratitude, and love poured out in response to grace.",
+      "artwork": "https://f4.bcbits.com/img/a1134613641_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-alabaster-heart",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "fruit-comes-from-you-2",
+      "title": "Fruit Comes From You",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-28",
+      "description": "Fruit Comes From You is a joyful children’s worship song from the album Little Lambs.",
+      "artwork": "https://f4.bcbits.com/img/a4258912540_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/fruit-comes-from-you-2",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "little-lambs-childrens-music",
+      "title": "Little Lamb's - Children's Music",
+      "type": "album",
+      "language": "",
+      "releaseDate": "2025-12-28",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2295045103_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/little-lambs-childrens-music",
+      "featured": false,
+      "reviewFlags": [
+        "language",
+        "description"
+      ]
+    },
+    {
+      "id": "the-seed-is-crowned",
+      "title": "The Seed is Crowned",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-26",
+      "description": "“The Seed Is Crowned” reflects on Jesus’ parable of the sower through a deeper lens.",
+      "artwork": "https://f4.bcbits.com/img/a3957091173_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-seed-is-crowned",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-unshakeable-kingdom",
+      "title": "The Unshakeable Kingdom",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-21",
+      "description": "The Unshakeable Kingdom is a song about what cannot be moved, earned, or rushed.",
+      "artwork": "https://f4.bcbits.com/img/a0868690246_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-unshakeable-kingdom",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "chrome-down-the-shepherds-call",
+      "title": "CHROME DOWN (The Shepherd's Call)",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-19",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a1639411318_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/chrome-down-the-shepherds-call",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "the-power-of-honor",
+      "title": "The Power of Honor",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-19",
+      "description": "Power of Honor is a reflective and declarative song rooted in biblical wisdom and the upside down economy of the Kingdom of God.",
+      "artwork": "https://f4.bcbits.com/img/a2985562748_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-power-of-honor",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "i-am-ehyeh-asher-ehyeh-2",
+      "title": "I AM  - Ehyeh Asher Ehyeh",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-16",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0283092714_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/i-am-ehyeh-asher-ehyeh-2",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "the-names-of-god",
+      "title": "The Names of God",
+      "type": "album",
+      "language": "",
+      "releaseDate": "2025-12-16",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a3029088915_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/the-names-of-god",
+      "featured": false,
+      "reviewFlags": [
+        "language",
+        "description"
+      ]
+    },
+    {
+      "id": "rapper-talk-like-a-fool",
+      "title": "Rapper: Talk Like A Fool",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-13",
+      "description": "Rapper: Talk Like a Fool is a disciplined hip hop critique of careless speech and false bravado.",
+      "artwork": "https://f4.bcbits.com/img/a2351271215_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/rapper-talk-like-a-fool",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "soldier-for-christ",
+      "title": "Soldier For Christ",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-10",
+      "description": "“Soldier for Christ” is a declaration of identity and devotion.",
+      "artwork": "https://f4.bcbits.com/img/a1394808656_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/soldier-for-christ",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "el-cuerpo-de-cristo",
+      "title": "El Cuerpo de Cristo",
+      "type": "song",
+      "language": "Spanish",
+      "releaseDate": "2025-12-10",
+      "description": "El Cuerpo de Cristo es una meditación profunda sobre la unidad, la vida compartida y la comunión espiritual que el Señor imparte a Su pueblo.",
+      "artwork": "https://f4.bcbits.com/img/a3295706764_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/el-cuerpo-de-cristo",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-body-of-christ",
+      "title": "The Body of Christ",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-09",
+      "description": "The Body of Christ is a solemn and deeply reverent song that draws the listener into the mystery of our shared life in Jesus.",
+      "artwork": "https://f4.bcbits.com/img/a2627779084_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-body-of-christ",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "te-amo-tambi-n-se-or",
+      "title": "“Te Amo También, Señor”",
+      "type": "song",
+      "language": "Spanish",
+      "releaseDate": "2025-12-09",
+      "description": "ESPAÑOL “Te Amo También, Señor” nace del deseo profundo de caminar cada día más cerca de Jesús.",
+      "artwork": "https://f4.bcbits.com/img/a0604594513_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/te-amo-tambi-n-se-or",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "i-love-you-too-2",
+      "title": "I Love You Too",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-09",
+      "description": "“I Love You Too” is a simple yet heartfelt expression of devoted love—an intimate song that lifts gratitude, affection, and worship straight from the heart.",
+      "artwork": "https://f4.bcbits.com/img/a0719090554_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/i-love-you-too-2",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-prize-how-to-get-it",
+      "title": "The Prize: How to Get It",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-09",
+      "description": "“The Prize” is a cinematic acoustic worship ballad that traces the inward journey of every believer who longs to see Christ formed within.",
+      "artwork": "https://f4.bcbits.com/img/a1824679870_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-prize-how-to-get-it",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "i-love-you-too",
+      "title": "I Love You Too",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-08",
+      "description": "“I Love You Too” is a heartfelt worship ballad that rises from a simple confession of love for Jesus.",
+      "artwork": "https://f4.bcbits.com/img/a2048843927_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/i-love-you-too",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "i-praise-you-jesus-2",
+      "title": "I Praise You Jesus!",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-07",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0531293297_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/i-praise-you-jesus-2",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "life-line",
+      "title": "Life Line",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-07",
+      "description": "“Life Line” is a quiet prayer set to music, a soft confession that every breath and every heartbeat is sustained by Jesus.",
+      "artwork": "https://f4.bcbits.com/img/a0019738182_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/life-line",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "its-about-jesus",
+      "title": "It's About Jesus!",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-07",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a4235941364_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/its-about-jesus",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "the-thief-who-believed",
+      "title": "The Thief Who Believed",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-07",
+      "description": "This song tells the story that unfolded at the cross.",
+      "artwork": "https://f4.bcbits.com/img/a2192710373_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-thief-who-believed",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "misleaders-a-kingdom-song",
+      "title": "Misleaders: A Kingdom Song",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-06",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0206596921_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/misleaders-a-kingdom-song",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "someday-any-day-now",
+      "title": "Someday ... Any Day Now",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-05",
+      "description": "This song calls out the endless timelines, charts, and countdown clocks that have shaped so much modern prophecy talk.",
+      "artwork": "https://f4.bcbits.com/img/a1932200924_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/someday-any-day-now",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "written-by-the-living-god",
+      "title": "Written By The Living God",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-05",
+      "description": "“Written By The Living God” is a gentle, Scripture-soaked meditation on what it means to be shaped from within by the Spirit of God.",
+      "artwork": "https://f4.bcbits.com/img/a1968617138_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/written-by-the-living-god",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "heart-of-a-prophet",
+      "title": "Heart Of A Prophet",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-05",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0981231071_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/heart-of-a-prophet",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "christmas-a-bright-day",
+      "title": "Christmas: A Bright Day",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-05",
+      "description": "Christmas: A Bright Day celebrates more than a moment in history.",
+      "artwork": "https://f4.bcbits.com/img/a3245431567_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/christmas-a-bright-day",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-mystery-of-the-faith",
+      "title": "The Mystery of the Faith",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-03",
+      "description": "The Mystery of the Faith is a song that opens the heart to the quiet work of God inside us.",
+      "artwork": "https://f4.bcbits.com/img/a0273532094_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-mystery-of-the-faith",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "christ-is-all",
+      "title": "Christ Is All",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-02",
+      "description": "“Christ Is All” is a song that lifts every heart toward the One who stands at the center of God’s new creation.",
+      "artwork": "https://f4.bcbits.com/img/a2645752175_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/christ-is-all",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "sharper-than-a-two-edged-sword",
+      "title": "Sharper Than A Two-Edged Sword",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-01",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a1268338231_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/sharper-than-a-two-edged-sword",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "wrong-again-my-friend",
+      "title": "Wrong Again My Friend",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-12-01",
+      "description": "“Wrong Again, My Friend” is a satirical folk-style commentary on the endless predictions that claim to know the day and hour.",
+      "artwork": "https://f4.bcbits.com/img/a1740294350_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/wrong-again-my-friend",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "a-mother-in-israel",
+      "title": "A Mother in Israel",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-30",
+      "description": "A Mother in Israel is a tribute to the courage that rises when God calls ordinary people into extraordinary moments.",
+      "artwork": "https://f4.bcbits.com/img/a0725181576_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-mother-in-israel",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "as-a-fruitful-tree",
+      "title": "As A Fruitful Tree",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-30",
+      "description": "There are moments when the water says more than words — when a reflection reveals a presence you weren’t expecting.",
+      "artwork": "https://f4.bcbits.com/img/a0600531496_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/as-a-fruitful-tree",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "in-that-day",
+      "title": "In That Day",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-30",
+      "description": "In That Day is a prophetic song rooted in the words Jesus spoke on the Mount of Olives and fulfilled within the first-century generation.",
+      "artwork": "https://f4.bcbits.com/img/a2748738366_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/in-that-day",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-heavenly-vision",
+      "title": "The Heavenly Vision",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-30",
+      "description": "The Heavenly Vision is a song about receiving God’s pattern for our lives and becoming the kind of people who can carry it out.",
+      "artwork": "https://f4.bcbits.com/img/a1855783373_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-heavenly-vision",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-dividing-line-of-time",
+      "title": "The Dividing Line of Time",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-30",
+      "description": "The Dividing Line of Time follows the razor’s edge where B.C.",
+      "artwork": "https://f4.bcbits.com/img/a4100438322_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-dividing-line-of-time",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "my-testimony",
+      "title": "My Testimony",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-30",
+      "description": "My Testimony comes from the night in 1975 when everything in my life broke—then everything changed.",
+      "artwork": "https://f4.bcbits.com/img/a0338755955_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/my-testimony",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-weight-of-your-voice-2",
+      "title": "The Weight of Your Voice",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-29",
+      "description": "“The Weight of Your Voice” is a worshipful, prophetic song that celebrates the majesty of God’s speaking.",
+      "artwork": "https://f4.bcbits.com/img/a1412874210_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-weight-of-your-voice-2",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "the-spirit-of-the-god-man",
+      "title": "The Spirit of the God-Man",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-28",
+      "description": "“The Spirit of the God-Man” is a prophetic worship journey that reveals the mystery of Christ’s completed work and the gift of His Spirit.",
+      "artwork": "https://f4.bcbits.com/img/a1575374968_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-spirit-of-the-god-man",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "lead-us-upward",
+      "title": "Lead Us Upward",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-28",
+      "description": "“Lead Me Upward” is a worship journey born from a song once titled The Mountain of the Lord.",
+      "artwork": "https://f4.bcbits.com/img/a1999880221_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/lead-us-upward",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "lazarus-come-out",
+      "title": "Lazarus Come Out",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-27",
+      "description": "“Lazarus Come Out” tells the story of John 11 through the eyes of Martha, Mary, and Lazarus himself.",
+      "artwork": "https://f4.bcbits.com/img/a2807797185_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/lazarus-come-out",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "last-days-madness",
+      "title": "Last Days Madness",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-27",
+      "description": "“Last Days Madness” is a bold and timely song that cuts through the fear-driven noise surrounding modern prophecy culture.",
+      "artwork": "https://f4.bcbits.com/img/a1759244601_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/last-days-madness",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "jesus-lord-search-my-inner-parts",
+      "title": "Jesus, Lord Search My Inner Parts",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-27",
+      "description": "\"Jesus, Lord Search My Inner Parts\" is a prayer set to melody.",
+      "artwork": "https://f4.bcbits.com/img/a3024541865_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/jesus-lord-search-my-inner-parts",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "a-christmas-miracle-he-came-for-us-all",
+      "title": "A Christmas Miracle: He Came For Us All",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-27",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0960990829_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-christmas-miracle-he-came-for-us-all",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "joseph-the-dreamer",
+      "title": "Joseph The Dreamer",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-26",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2662417524_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/joseph-the-dreamer",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "el-reino-esta-aqui-the-kingdom-is-here",
+      "title": "El Reino Esta Aqui - The Kingdom is Here",
+      "type": "song",
+      "language": "Spanish",
+      "releaseDate": "2025-11-26",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2850898552_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/el-reino-esta-aqui-the-kingdom-is-here",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "holy-war",
+      "title": "Holy War",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-26",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0912294336_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/holy-war",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "when-god-restores",
+      "title": "When God Restores",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-26",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a1653611531_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/when-god-restores",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "thanksgiving-song",
+      "title": "Thanksgiving Song",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-26",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a0162279865_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/thanksgiving-song",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "companion-of-my-yesterday",
+      "title": "Companion of My Yesterday",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-25",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a4128393059_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/companion-of-my-yesterday",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    },
+    {
+      "id": "queen-of-dork-forrest",
+      "title": "Queen of Dork Forrest",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2025-11-24",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a3920311533_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/queen-of-dork-forrest",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
+    }
+  ]
 }
