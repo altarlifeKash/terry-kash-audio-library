@@ -1,17 +1,25 @@
 :root {
-  --ink: #f7f1e5;
-  --muted: #c9c0b4;
-  --night: #070914;
-  --night-soft: #0e1222;
-  --burgundy: #7d1f3a;
-  --burgundy-bright: #a73455;
-  --royal: #233f91;
-  --royal-bright: #365dc4;
-  --gold: #d7ad55;
-  --gold-light: #f0d38c;
-  --line: rgba(240, 211, 140, 0.22);
-  --surface: rgba(255, 255, 255, 0.045);
-  --shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+  --parchment: #f5f1e8;
+  --ivory: #fcfaf5;
+  --walnut: #2e241c;
+  --muted: #6f655b;
+
+  --burgundy: #7a2e2e;
+  --burgundy-bright: #963d3d;
+
+  --royal: #2f5e8a;
+  --royal-bright: #3e78ad;
+
+  --gold: #b08a3c;
+  --gold-light: #d7bb75;
+
+  --stone: #d8d1c5;
+  --stone-light: #eee9df;
+
+  --line: rgba(91, 70, 54, 0.2);
+  --surface: #fcfaf5;
+
+  --shadow: 0 20px 48px rgba(72, 55, 38, 0.14);
   --max-width: 1180px;
 }
 
@@ -24,23 +32,58 @@ html {
 }
 
 body {
+  position: relative;
   margin: 0;
   min-width: 320px;
   background:
     radial-gradient(
-      circle at 8% 10%,
-      rgba(125, 31, 58, 0.23),
+      circle at 50% -10%,
+      rgba(255, 255, 255, 0.95),
       transparent 31rem
     ),
-    radial-gradient(
-      circle at 94% 28%,
-      rgba(35, 63, 145, 0.23),
-      transparent 34rem
+    linear-gradient(
+      90deg,
+      rgba(176, 138, 60, 0.05),
+      transparent 18%,
+      transparent 82%,
+      rgba(176, 138, 60, 0.05)
     ),
-    var(--night);
-  color: var(--ink);
+    var(--parchment);
+  color: var(--walnut);
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.6;
+}
+
+/* Museum-style stone pillars */
+
+body::before,
+body::after {
+  position: fixed;
+  top: 5.25rem;
+  bottom: 0;
+  z-index: -1;
+  width: clamp(32px, 5vw, 72px);
+  border-inline: 1px solid rgba(91, 70, 54, 0.18);
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.78),
+      rgba(216, 209, 197, 0.82) 35%,
+      rgba(245, 241, 232, 0.96) 68%,
+      rgba(176, 138, 60, 0.08)
+    ),
+    var(--stone-light);
+  box-shadow: 0 0 24px rgba(72, 55, 38, 0.08);
+  content: "";
+}
+
+body::before {
+  left: 0;
+}
+
+body::after {
+  right: 0;
+  transform: scaleX(-1);
 }
 
 a {
@@ -59,8 +102,8 @@ img {
   z-index: 100;
   padding: 0.7rem 1rem;
   border-radius: 0.4rem;
-  background: var(--gold-light);
-  color: #16100a;
+  background: var(--gold);
+  color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   transform: translateY(-160%);
@@ -71,7 +114,7 @@ img {
 }
 
 :focus-visible {
-  outline: 3px solid var(--gold-light);
+  outline: 3px solid var(--royal);
   outline-offset: 4px;
 }
 
@@ -83,6 +126,8 @@ img {
   width: min(calc(100% - 2rem), var(--max-width));
   margin-inline: auto;
 }
+
+/* Header */
 
 .site-header {
   display: flex;
@@ -99,7 +144,7 @@ img {
   align-items: center;
   gap: 12px;
   white-space: nowrap;
-  color: var(--ink);
+  color: var(--walnut);
   font-weight: 700;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -113,8 +158,10 @@ img {
   place-items: center;
   border: 1px solid var(--gold);
   border-radius: 50%;
-  color: var(--gold-light);
+  background: var(--ivory);
+  color: var(--burgundy);
   font-family: Georgia, "Times New Roman", serif;
+  box-shadow: 0 5px 18px rgba(72, 55, 38, 0.1);
 }
 
 .header-links {
@@ -125,7 +172,7 @@ img {
 }
 
 .back-link {
-  color: var(--gold-light);
+  color: var(--royal);
   font-size: 0.86rem;
   font-weight: 700;
   text-decoration: none;
@@ -133,17 +180,31 @@ img {
 }
 
 .back-link:hover {
-  color: #fff2ca;
+  color: var(--burgundy);
   text-decoration: underline;
 }
 
+/* Main introduction */
+
 .library-intro {
+  position: relative;
   padding-block: clamp(4rem, 10vw, 8rem);
+  text-align: center;
+}
+
+.library-intro::before {
+  display: block;
+  width: min(520px, 75%);
+  height: 10px;
+  margin: 0 auto 2.8rem;
+  border-top: 1px solid var(--gold);
+  border-bottom: 1px solid var(--gold);
+  content: "";
 }
 
 .eyebrow {
   margin: 0 0 1rem;
-  color: var(--gold-light);
+  color: var(--burgundy);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.76rem;
   font-weight: 800;
@@ -162,6 +223,7 @@ h1 {
   width: 100%;
   max-width: none;
   margin: 0;
+  color: var(--walnut);
   font-size: clamp(2.2rem, 5.8vw, 5rem);
   font-weight: 500;
   letter-spacing: -0.045em;
@@ -171,20 +233,22 @@ h1 {
 }
 
 .subtitle {
-  max-width: 680px;
-  margin: 1.6rem 0 0;
-  color: var(--gold-light);
+  max-width: 760px;
+  margin: 1.6rem auto 0;
+  color: var(--royal);
   font-size: clamp(1.2rem, 2.5vw, 1.65rem);
   line-height: 1.45;
 }
 
 .intro {
-  max-width: 650px;
-  margin: 1.25rem 0 2rem;
+  max-width: 700px;
+  margin: 1.25rem auto 2rem;
   color: var(--muted);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
+
+/* Collections section */
 
 .library {
   padding-block: clamp(4rem, 9vw, 7.5rem);
@@ -201,6 +265,7 @@ h1 {
 
 .section-heading h2 {
   margin: 0;
+  color: var(--walnut);
   font-size: clamp(2.1rem, 5vw, 3.5rem);
   font-weight: 500;
   letter-spacing: -0.035em;
@@ -229,19 +294,20 @@ h1 {
   align-items: flex-start;
   padding: 1.5rem;
   overflow: hidden;
-  border: 1px solid var(--line);
+  border: 1px solid var(--stone);
   border-radius: 0.65rem;
   background: linear-gradient(
     145deg,
-    rgba(255, 255, 255, 0.07),
-    var(--surface)
+    #fffdf8,
+    var(--ivory)
   );
-  color: var(--ink);
+  color: var(--walnut);
   text-decoration: none;
+  box-shadow: 0 10px 28px rgba(72, 55, 38, 0.08);
   transition:
     border-color 180ms ease,
     transform 180ms ease,
-    background 180ms ease;
+    box-shadow 180ms ease;
 }
 
 .category-card::before {
@@ -250,18 +316,29 @@ h1 {
   bottom: -4.5rem;
   width: 11rem;
   height: 11rem;
-  border: 1px solid rgba(240, 211, 140, 0.12);
+  border: 1px solid rgba(176, 138, 60, 0.22);
   border-radius: 50%;
   content: "";
 }
 
-.category-card:hover {
-  border-color: rgba(240, 211, 140, 0.55);
+.category-card::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
   background: linear-gradient(
-    145deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.055)
+    90deg,
+    var(--burgundy),
+    var(--gold),
+    var(--royal)
   );
+  content: "";
+}
+
+.category-card:hover {
+  border-color: var(--gold);
+  box-shadow: var(--shadow);
   transform: translateY(-4px);
 }
 
@@ -271,10 +348,11 @@ h1 {
   height: 3.25rem;
   place-items: center;
   margin-bottom: 2.4rem;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.45);
   border-radius: 50%;
-  color: #fff;
+  color: #ffffff;
   font-size: 1.4rem;
+  box-shadow: 0 6px 16px rgba(72, 55, 38, 0.15);
 }
 
 .icon-burgundy {
@@ -286,7 +364,7 @@ h1 {
 }
 
 .icon-gold {
-  background: #8b6823;
+  background: var(--gold);
 }
 
 .coming-soon,
@@ -295,9 +373,10 @@ h1 {
   top: 1.5rem;
   right: 1.5rem;
   padding: 0.25rem 0.5rem;
-  border: 1px solid rgba(240, 211, 140, 0.45);
+  border: 1px solid rgba(176, 138, 60, 0.55);
   border-radius: 999px;
-  color: var(--gold-light);
+  background: rgba(255, 255, 255, 0.75);
+  color: var(--burgundy);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.63rem;
   font-weight: 800;
@@ -306,8 +385,8 @@ h1 {
 }
 
 .catalog-count {
-  border-color: rgba(54, 93, 196, 0.75);
-  background: rgba(35, 63, 145, 0.32);
+  border-color: rgba(47, 94, 138, 0.45);
+  color: var(--royal);
 }
 
 .category-card h3 {
@@ -329,11 +408,13 @@ h1 {
   position: relative;
   z-index: 1;
   margin-top: auto;
-  color: var(--gold-light);
+  color: var(--royal);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
   font-weight: 800;
 }
+
+/* Catalog status */
 
 .catalog-status {
   display: flex;
@@ -342,11 +423,11 @@ h1 {
   margin-top: 1.2rem;
   padding: 1.3rem 1.5rem;
   border-left: 3px solid var(--gold);
-  background: rgba(215, 173, 85, 0.075);
+  background: rgba(176, 138, 60, 0.09);
 }
 
 .status-symbol {
-  color: var(--gold-light);
+  color: var(--gold);
   font-size: 1.4rem;
 }
 
@@ -367,6 +448,8 @@ h1 {
   display: none !important;
 }
 
+/* Songs catalog */
+
 .songs-catalog {
   padding-block: clamp(3rem, 7vw, 6rem);
   border-top: 1px solid var(--line);
@@ -374,10 +457,10 @@ h1 {
 
 .return-link,
 .show-more {
-  border: 1px solid var(--gold);
+  border: 1px solid var(--royal);
   border-radius: 999px;
-  background: transparent;
-  color: var(--gold-light);
+  background: var(--ivory);
+  color: var(--royal);
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
@@ -390,8 +473,8 @@ h1 {
 
 .return-link:hover,
 .show-more:hover {
-  background: rgba(215, 173, 85, 0.12);
-  color: #fff2ca;
+  background: var(--royal);
+  color: #ffffff;
 }
 
 .songs-heading {
@@ -413,7 +496,7 @@ h1 {
 .song-total {
   flex: 0 0 auto;
   margin: 0;
-  color: var(--gold-light);
+  color: var(--burgundy);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   font-weight: 800;
@@ -424,10 +507,11 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.song-search label {
+.song-search label,
+.language-filters legend {
   display: block;
   margin-bottom: 0.45rem;
-  color: var(--ink);
+  color: var(--walnut);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
   font-weight: 800;
@@ -437,29 +521,22 @@ h1 {
   width: 100%;
   min-height: 3.25rem;
   padding: 0.75rem 1rem;
-  border: 1px solid rgba(240, 211, 140, 0.42);
+  border: 1px solid var(--stone);
   border-radius: 0.45rem;
-  background: rgba(255, 255, 255, 0.065);
-  color: var(--ink);
+  background: var(--ivory);
+  color: var(--walnut);
   font: 1rem Arial, Helvetica, sans-serif;
+  box-shadow: inset 0 1px 2px rgba(72, 55, 38, 0.05);
 }
 
 .song-search input::placeholder {
-  color: #aaa29a;
+  color: #958b80;
 }
 
 .language-filters {
   margin: 0 0 1.2rem;
   padding: 0;
   border: 0;
-}
-
-.language-filters legend {
-  margin-bottom: 0.55rem;
-  color: var(--ink);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8rem;
-  font-weight: 800;
 }
 
 .language-filter-buttons {
@@ -471,9 +548,9 @@ h1 {
 .language-filter-buttons button {
   min-height: 2.35rem;
   padding: 0.5rem 0.75rem;
-  border: 1px solid rgba(240, 211, 140, 0.35);
+  border: 1px solid var(--stone);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--ivory);
   color: var(--muted);
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
@@ -483,13 +560,13 @@ h1 {
 
 .language-filter-buttons button:hover {
   border-color: var(--gold);
-  color: var(--ink);
+  color: var(--walnut);
 }
 
 .language-filter-buttons button[aria-pressed="true"] {
-  border-color: var(--gold);
-  background: var(--gold);
-  color: #171005;
+  border-color: var(--royal);
+  background: var(--royal);
+  color: #ffffff;
 }
 
 .catalog-feedback {
@@ -511,14 +588,10 @@ h1 {
   min-width: 0;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid var(--line);
+  border: 1px solid var(--stone);
   border-radius: 0.65rem;
-  background: linear-gradient(
-    145deg,
-    rgba(255, 255, 255, 0.07),
-    var(--surface)
-  );
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.2);
+  background: var(--ivory);
+  box-shadow: 0 14px 34px rgba(72, 55, 38, 0.1);
 }
 
 .song-artwork-frame {
@@ -528,7 +601,11 @@ h1 {
   place-items: center;
   padding: clamp(0.65rem, 1.5vw, 1rem);
   overflow: hidden;
-  background: #0a0b0f;
+  background: linear-gradient(
+    145deg,
+    var(--stone-light),
+    var(--stone)
+  );
 }
 
 .song-artwork {
@@ -559,7 +636,7 @@ h1 {
   flex-wrap: wrap;
   gap: 0.4rem 0.8rem;
   margin-top: 0.55rem;
-  color: var(--gold-light);
+  color: var(--burgundy);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.72rem;
   font-weight: 700;
@@ -576,9 +653,9 @@ h1 {
 .bandcamp-button {
   margin-top: auto;
   padding: 0.62rem 0.8rem;
-  border: 1px solid var(--gold);
+  border: 1px solid var(--royal);
   border-radius: 0.35rem;
-  color: var(--gold-light);
+  color: var(--royal);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.76rem;
   font-weight: 800;
@@ -586,8 +663,8 @@ h1 {
 }
 
 .bandcamp-button:hover {
-  background: var(--gold);
-  color: #171005;
+  background: var(--royal);
+  color: #ffffff;
 }
 
 .show-more-wrap {
@@ -601,6 +678,8 @@ h1 {
   padding: 0.85rem 1.4rem;
   font-size: 0.85rem;
 }
+
+/* Footer */
 
 .site-footer {
   display: flex;
@@ -617,14 +696,16 @@ h1 {
 }
 
 .footer-bandcamp {
-  color: var(--gold-light);
+  color: var(--royal);
   font-weight: 700;
   text-underline-offset: 0.25em;
 }
 
 .footer-bandcamp:hover {
-  color: #fff2ca;
+  color: var(--burgundy);
 }
+
+/* Responsive layout */
 
 @media (max-width: 860px) {
   .category-grid,
@@ -634,6 +715,11 @@ h1 {
 }
 
 @media (max-width: 760px) {
+  body::before,
+  body::after {
+    display: none;
+  }
+
   .site-header {
     flex-wrap: wrap;
     gap: 0.65rem;
@@ -674,7 +760,9 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(2.75rem, 16vw, 4rem);
+    font-size: clamp(1.75rem, 8.7vw, 2.7rem);
+    white-space: nowrap;
+    text-wrap: nowrap;
   }
 
   .section-heading,
