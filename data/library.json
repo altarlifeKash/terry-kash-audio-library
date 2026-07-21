@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "id": "audiobook-ongoing-work-of-the-holy-spirit",
+      "title": "Audiobook: Ongoing Work of the Holy Spirit",
+      "type": "audiobook",
+      "language": "English",
+      "releaseDate": "2026-07-20",
+      "description": "An audiobook exploring the ongoing work and ministry of the Holy Spirit in the life of the believer.",
+      "artwork": "assets/ongoing-work-of-the-holy-spirit-cover.png",
+      "bandcampUrl": "https://terrykash.bandcamp.com/album/audiobook-ongoing-work-of-the-holy-spirit",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
       "id": "armenian-tree-of-life",
       "title": "Կենաց Ծառը",
       "type": "song",
