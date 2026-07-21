@@ -3,68 +3,256 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Browse Terry Kashian audiobooks and listen on Bandcamp."
+  />
+
   <title>Audiobooks | The Terry Kashian Library</title>
 
   <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    .audiobook-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 28px;
+      margin-top: 30px;
+    }
+
+    .audiobook-card {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(212, 175, 55, 0.35);
+      border-radius: 18px;
+      text-decoration: none;
+      color: inherit;
+      transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .audiobook-card:hover,
+    .audiobook-card:focus-visible {
+      transform: translateY(-5px);
+      border-color: rgba(212, 175, 55, 0.85);
+      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.25);
+    }
+
+    .audiobook-cover-frame {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+      background: #171717;
+    }
+
+    .audiobook-cover {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .audiobook-content {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .audiobook-content h2 {
+      margin: 0 0 12px;
+      font-size: 1.15rem;
+      line-height: 1.35;
+    }
+
+    .audiobook-content p {
+      margin: 0 0 18px;
+      line-height: 1.6;
+    }
+
+    .audiobook-action {
+      margin-top: auto;
+      font-weight: 700;
+    }
+
+    .catalog-message {
+      margin-top: 30px;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<header class="site-header">
-  <a class="brand" href="library.html">
-    <span class="brand-mark">TK</span>
-    <span>The Terry Kashian Library</span>
-  </a>
-
-  <a class="back-link" href="library.html">
-    ← Back to Library
-  </a>
-</header>
-
-<main id="main-content">
-
-<section class="library-intro">
-  <p class="eyebrow">Audiobooks</p>
-
-  <h1>Featured Audiobooks</h1>
-
-  <p class="subtitle">
-    Listen to Terry Kashian audiobooks on Bandcamp.
-  </p>
-</section>
-
-<section class="library">
-
-  <div class="category-grid">
-
+  <header class="site-header">
     <a
-      class="category-card"
-      href="https://terrykash.bandcamp.com"
-      target="_blank"
-      rel="noopener"
+      class="brand"
+      href="library.html"
+      aria-label="Return to The Terry Kashian Library"
     >
-      <span class="category-icon icon-gold">▥</span>
-
-      <h3>View All Audiobooks</h3>
-
-      <p>
-        Browse the complete audiobook collection on Bandcamp.
-      </p>
-
-      <span class="card-action">
-        Open Bandcamp ↗
-      </span>
+      <span class="brand-mark" aria-hidden="true">TK</span>
+      <span>The Terry Kashian Library</span>
     </a>
 
-  </div>
+    <a class="back-link" href="library.html">
+      <span aria-hidden="true">←</span> Back to Library
+    </a>
+  </header>
 
-</section>
+  <main id="main-content">
+    <section class="library-intro">
+      <p class="eyebrow">Audiobooks</p>
 
-</main>
+      <h1>Featured Audiobooks</h1>
 
-<footer class="site-footer">
-  <p>© 2026 The Terry Kashian Library</p>
-</footer>
+      <p class="subtitle">
+        Select an audiobook to listen on Bandcamp.
+      </p>
+    </section>
 
+    <section class="library" aria-labelledby="audiobook-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Terry Kashian Audiobooks</p>
+          <h2 id="audiobook-heading">Choose an audiobook</h2>
+        </div>
+      </div>
+
+      <p
+        class="catalog-message"
+        id="audiobook-message"
+        aria-live="polite"
+      >
+        Loading audiobooks…
+      </p>
+
+      <div
+        class="audiobook-grid"
+        id="audiobook-grid"
+      ></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      © <span id="current-year">2026</span>
+      The Terry Kashian Library
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      "use strict";
+
+      var audiobookGrid = document.getElementById("audiobook-grid");
+      var audiobookMessage = document.getElementById("audiobook-message");
+      var currentYear = document.getElementById("current-year");
+
+      if (currentYear) {
+        currentYear.textContent = String(new Date().getFullYear());
+      }
+
+      fetch("data/library.json")
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("The audiobook catalog could not be loaded.");
+          }
+
+          return response.json();
+        })
+        .then(function (catalog) {
+          if (!catalog || !Array.isArray(catalog.releases)) {
+            throw new Error("The audiobook catalog is not correctly formatted.");
+          }
+
+          var audiobooks = catalog.releases
+            .filter(function (release) {
+              return release.type === "audiobook";
+            })
+            .sort(function (first, second) {
+              return String(second.releaseDate || "").localeCompare(
+                String(first.releaseDate || "")
+              );
+            });
+
+          audiobookGrid.replaceChildren();
+
+          audiobooks.forEach(function (audiobook) {
+            audiobookGrid.appendChild(createAudiobookCard(audiobook));
+          });
+
+          audiobookMessage.textContent =
+            audiobooks.length +
+            (audiobooks.length === 1
+              ? " audiobook available"
+              : " audiobooks available");
+        })
+        .catch(function () {
+          audiobookMessage.textContent =
+            "The audiobooks could not be loaded. Please refresh the page.";
+        });
+
+      function createAudiobookCard(audiobook) {
+        var link = document.createElement("a");
+        var coverFrame = document.createElement("div");
+        var image = document.createElement("img");
+        var content = document.createElement("div");
+        var title = document.createElement("h2");
+        var description = document.createElement("p");
+        var action = document.createElement("span");
+
+        link.className = "audiobook-card";
+        link.href = audiobook.bandcampUrl;
+        link.target = "_blank";
+        link.rel = "noopener";
+
+        coverFrame.className = "audiobook-cover-frame";
+
+        image.className = "audiobook-cover";
+        image.src = audiobook.artwork;
+        image.alt = "Cover artwork for " + cleanTitle(audiobook.title);
+        image.loading = "lazy";
+        image.decoding = "async";
+        image.width = 700;
+        image.height = 700;
+
+        content.className = "audiobook-content";
+
+        title.textContent = cleanTitle(audiobook.title);
+
+        description.textContent =
+          String(audiobook.description || "").trim() ||
+          "Listen to this Terry Kashian audiobook on Bandcamp.";
+
+        action.className = "audiobook-action";
+        action.innerHTML =
+          'Listen on Bandcamp <span aria-hidden="true">↗</span>';
+
+        coverFrame.appendChild(image);
+        content.appendChild(title);
+        content.appendChild(description);
+        content.appendChild(action);
+
+        link.appendChild(coverFrame);
+        link.appendChild(content);
+
+        return link;
+      }
+
+      function cleanTitle(title) {
+        return String(title || "")
+          .replace(/^Exclusive Audiobook:\s*/i, "")
+          .replace(/^Audiobook:\s*/i, "")
+          .replace(/^AudioBook:\s*/i, "")
+          .trim();
+      }
+    })();
+  </script>
 </body>
 </html>
