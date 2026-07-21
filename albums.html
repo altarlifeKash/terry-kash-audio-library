@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Browse Terry Kashian albums and listen on Bandcamp."
+  />
+
+  <title>Albums | The Terry Kashian Library</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    .album-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 28px;
+      margin-top: 30px;
+    }
+
+    .album-card {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      border: 1px solid rgba(212, 175, 55, 0.4);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.06);
+      color: inherit;
+      text-decoration: none;
+      transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .album-card:hover,
+    .album-card:focus-visible {
+      transform: translateY(-6px);
+      border-color: rgba(212, 175, 55, 0.9);
+      box-shadow: 0 18px 42px rgba(0, 0, 0, 0.32);
+    }
+
+    .album-cover-frame {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+      background: #171717;
+    }
+
+    .album-cover {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .album-content {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 22px;
+    }
+
+    .album-content h2 {
+      margin: 0 0 12px;
+      font-size: 1.3rem;
+      line-height: 1.3;
+    }
+
+    .album-content p {
+      margin: 0 0 20px;
+      line-height: 1.6;
+    }
+
+    .album-action {
+      margin-top: auto;
+      color: #f0d38c;
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <a
+      class="brand"
+      href="library.html"
+      aria-label="Return to The Terry Kashian Library"
+    >
+      <span class="brand-mark" aria-hidden="true">TK</span>
+      <span>The Terry Kashian Library</span>
+    </a>
+
+    <a class="back-link" href="library.html">
+      <span aria-hidden="true">←</span> Back to Library
+    </a>
+  </header>
+
+  <main id="main-content">
+    <section class="library-intro">
+      <p class="eyebrow">Albums</p>
+
+      <h1>Terry Kashian Albums</h1>
+
+      <p class="subtitle">
+        Explore three complete musical collections.
+      </p>
+    </section>
+
+    <section class="library" aria-labelledby="albums-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Complete Collections</p>
+          <h2 id="albums-heading">Choose an album</h2>
+        </div>
+      </div>
+
+      <div class="album-grid">
+
+        <a
+          class="album-card"
+          href="https://terrykash.bandcamp.com/album/the-names-of-god"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="album-cover-frame">
+            <img
+              class="album-cover"
+              src="resizeplus_NamesofGod.png"
+              alt="The Names of God album cover"
+            />
+          </div>
+
+          <div class="album-content">
+            <h2>The Names of God</h2>
+
+            <p>
+              Songs centered on the beauty, character, and revealed names of God.
+            </p>
+
+            <span class="album-action">
+              Listen on Bandcamp <span aria-hidden="true">↗</span>
+            </span>
+          </div>
+        </a>
+
+        <a
+          class="album-card"
+          href="https://terrykash.bandcamp.com/album/animal-farm-songs-from-the-broken-windmill"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="album-cover-frame">
+            <img
+              class="album-cover"
+              src="Newanimalfarmcover.png"
+              alt="Animal Farm: Songs from the Broken Windmill album cover"
+            />
+          </div>
+
+          <div class="album-content">
+            <h2>Animal Farm</h2>
+
+            <p>
+              Songs from the Broken Windmill, a dramatic and symbolic musical collection.
+            </p>
+
+            <span class="album-action">
+              Listen on Bandcamp <span aria-hidden="true">↗</span>
+            </span>
+          </div>
+        </a>
+
+        <a
+          class="album-card"
+          href="https://terrykash.bandcamp.com/album/little-lambs-childrens-music"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="album-cover-frame">
+            <img
+              class="album-cover"
+              src="resizeplus_LittleLambscover.png"
+              alt="Little Lambs Children's Music album cover"
+            />
+          </div>
+
+          <div class="album-content">
+            <h2>Little Lambs Children’s Music</h2>
+
+            <p>
+              A joyful collection of songs created especially for children and families.
+            </p>
+
+            <span class="album-action">
+              Listen on Bandcamp <span aria-hidden="true">↗</span>
+            </span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      © <span id="current-year">2026</span>
+      The Terry Kashian Library
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
