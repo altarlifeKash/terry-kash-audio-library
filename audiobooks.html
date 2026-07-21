@@ -14,6 +14,12 @@
   <link rel="stylesheet" href="styles.css" />
 
   <style>
+    .header-links {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
     .audiobook-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -100,9 +106,15 @@
       <span>The Terry Kashian Library</span>
     </a>
 
-    <a class="back-link" href="library.html">
-      <span aria-hidden="true">←</span> Back to Library
-    </a>
+    <div class="header-links">
+      <a class="back-link" href="library.html">
+        <span aria-hidden="true">←</span> Back to Library
+      </a>
+
+      <a class="back-link" href="contact.html">
+        Contact
+      </a>
+    </div>
   </header>
 
   <main id="main-content">
@@ -144,6 +156,21 @@
       © <span id="current-year">2026</span>
       The Terry Kashian Library
     </p>
+
+    <p>
+      Questions, comments, speaking invitations, or ministry opportunities are always welcome.
+    </p>
+
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:Altarlife@gmail.com">
+        Altarlife@gmail.com
+      </a>
+    </p>
+
+    <a class="back-link" href="library.html">
+      <span aria-hidden="true">←</span> Back to Library
+    </a>
   </footer>
 
   <script>
