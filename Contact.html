@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Contact The Terry Kashian Library."
+  />
+
   <title>Contact | The Terry Kashian Library</title>
-  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<header class="site-header">
-  <a href="index.html" class="brand">
-    <span>The Terry Kashian Library</span>
-  </a>
+  <header class="site-header">
+    <a class="brand" href="library.html" aria-label="The Terry Kashian Library home">
+      <span class="brand-mark" aria-hidden="true">TK</span>
+      <span>The Terry Kashian Library</span>
+    </a>
 
-  <nav class="site-nav">
-    <a href="index.html">Home</a>
-    <a href="library.html">Library</a>
-    <a href="songs.html">Songs</a>
-    <a href="albums.html">Albums</a>
-    <a href="audiobooks.html">Audiobooks</a>
-    <a href="contact.html" aria-current="page">Contact</a>
-  </nav>
-</header>
+    <div class="header-links">
+      <a class="back-link" href="library.html">
+        <span aria-hidden="true">←</span> Back to Library
+      </a>
 
-<main class="page-content">
+      <a class="back-link" href="index.html">
+        Entrance
+      </a>
+    </div>
+  </header>
 
-  <section class="hero">
-    <h1>Contact Terry Kashian</h1>
+  <main id="main-content">
+    <section class="library-intro" aria-labelledby="contact-title">
+      <p class="eyebrow">Connect</p>
+
+      <h1 id="contact-title">Contact</h1>
+
+      <p class="subtitle">
+        Questions, comments, permissions, and inquiries about the library.
+      </p>
+
+      <p class="intro">
+        To contact The Terry Kashian Library, please use the email address below.
+      </p>
+
+      <p>
+        <a
+          class="bandcamp-button"
+          href="mailto:YOUR-EMAIL-ADDRESS"
+        >
+          Send an Email
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© The Terry Kashian Library</p>
 
     <p>
-      Questions, comments, speaking invitations, or ministry opportunities are always welcome.
-    </p>
-
-    <p>
-      <strong>Email:</strong>
-      <a href="mailto:Altarlife@gmail.com">
-        Altarlife@gmail.com
+      <a class="footer-bandcamp" href="library.html">
+        Return to the Library
       </a>
     </p>
-
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <p>&copy; <span id="current-year"></span> The Terry Kashian Library</p>
-</footer>
-
-<script src="script.js"></script>
-
+  </footer>
 </body>
 </html>
