@@ -1,6 +1,6 @@
 # Language Classification Review
 
-This review covers all **133 songs** currently stored in `data/library.json`. The catalog owner is the authority for language classification; Bandcamp titles, descriptions, and lyrics are supporting evidence only.
+This review covers all **149 songs** currently stored in `data/library.json`. The catalog owner is the authority for language classification; Bandcamp titles, descriptions, and lyrics are supporting evidence only.
 
 ## Classification policy
 
@@ -12,12 +12,13 @@ This review covers all **133 songs** currently stored in `data/library.json`. Th
 
 ## Current totals
 
-- English: **122**
+- English: **135**
 - Armenian: **3**
 - Spanish: **4**
-- Chinese: **2**
+- Chinese: **4**
 - Urdu: **1**
 - Tagalog: **1**
+- Telugu: **1**
 - Other: **0**
 - Unclassified: **0**
 
@@ -76,7 +77,7 @@ This review covers all **133 songs** currently stored in `data/library.json`. Th
 | Healing Streams | English | English | https://terrykash.bandcamp.com/track/healing-streams | Owner-reviewed — current catalog language retained. |
 | Streams of Healing | English | English | https://terrykash.bandcamp.com/track/streams-of-healing | Owner-reviewed — current catalog language retained. |
 | He Made Room For All To See | English | English | https://terrykash.bandcamp.com/track/he-made-room-for-all-to-see | Owner-reviewed — current catalog language retained. |
-| My Little Hummingbird: Yong Yong | English | English | https://terrykash.bandcamp.com/track/my-little-hummingbird-yong-yong | Owner-reviewed — current catalog language retained. |
+| My Little Hummingbird: Yong Yong | English | Chinese | https://terrykash.bandcamp.com/track/my-little-hummingbird-yong-yong | Owner-corrected — the recording is in Mandarin Chinese despite its English title. |
 | The Homer Hermeneutic | English | English | https://terrykash.bandcamp.com/track/the-homer-hermeneutic | Owner-reviewed — current catalog language retained. |
 | An Easter Song: Magnified in US | English | English | https://terrykash.bandcamp.com/track/an-easter-song-magnified-in-us | Owner-reviewed — current catalog language retained. |
 | The Two Promises | English | English | https://terrykash.bandcamp.com/track/the-two-promises | Owner-reviewed — current catalog language retained. |
