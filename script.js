@@ -14,6 +14,7 @@
   var songTotal = document.getElementById("song-total");
   var catalogFeedback = document.getElementById("catalog-feedback");
   var showMoreButton = document.getElementById("show-more");
+  var songCategoryCount = document.getElementById("song-category-count");
   var languageFilterButtons = document.querySelectorAll("[data-language-filter]");
   var year = document.getElementById("current-year");
   var songs = [];
@@ -119,6 +120,10 @@
           String(catalog.releases.length)
         );
         document.documentElement.setAttribute("data-song-count", String(songs.length));
+        if (songCategoryCount) {
+          songCategoryCount.textContent =
+            songs.length + (songs.length === 1 ? " Song" : " Songs");
+        }
         return songs;
       });
 
@@ -300,5 +305,9 @@
 
   if (window.location.hash === "#songs-catalog") {
     showSongsView();
+  } else {
+    loadCatalog().catch(function () {
+      // Keep the generic category label when a local file preview cannot fetch JSON.
+    });
   }
 })();
