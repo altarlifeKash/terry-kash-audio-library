@@ -36,10 +36,13 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
+      - name: Validate committed catalog and imported links
+        run: npm run validate -- --check-imported-links
+
       - name: Read Bandcamp and import new releases
         run: npm run sync
 
-      - name: Validate catalog and imported links
+      - name: Validate synchronized catalog and imported links
         run: npm run validate -- --check-imported-links
 
       - name: Commit validated updates
