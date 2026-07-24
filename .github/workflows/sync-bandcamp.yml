@@ -1,0 +1,60 @@
+name: Sync Bandcamp catalog
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "15 17 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-bandcamp-catalog
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Validate committed catalog and imported links
+        run: npm run validate -- --check-imported-links
+
+      - name: Read Bandcamp and import new releases
+        run: npm run sync
+
+      - name: Validate synchronized catalog and imported links
+        run: npm run validate -- --check-imported-links
+
+      - name: Commit validated updates
+        if: github.event_name != 'pull_request'
+        run: |
+          if git diff --quiet -- data/library.json data/sync-status.json; then
+            echo "No catalog or status changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/library.json data/sync-status.json
+          git commit -m "Sync Bandcamp catalog"
+          git push
