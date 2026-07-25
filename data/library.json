@@ -2035,6 +2035,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/o-the-riches",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "ang-dakilang-pintor-ng-aking-buhay",
+      "title": "Ang Dakilang Pintor ng Aking Buhay",
+      "type": "song",
+      "language": "Tagalog",
+      "releaseDate": "2026-07-24",
+      "description": "Ang Dakilang Pintor ng Aking Buhay",
+      "artwork": "https://f4.bcbits.com/img/a4033771692_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/ang-dakilang-pintor-ng-aking-buhay",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
