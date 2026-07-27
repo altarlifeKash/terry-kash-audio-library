@@ -2059,6 +2059,30 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/a-view-with-matthew",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "the-texts-of-time",
+      "title": "The Texts of Time",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-07-27",
+      "description": "Texts of Time is the opening song of a concept album exploring biblical hermeneutics through music. Inspired by the teaching ministry of Robert Cruickshank, this song encourages listeners to read Scripture as its original hearers would have understood it—honoring the historical setting, audience, and time references before applying its message today. The imagery of the hourglass reflects the song's central theme: Go…",
+      "artwork": "https://f4.bcbits.com/img/a2264869785_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-texts-of-time",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "holding-fast-to-the-head-a-song-about-crumbling-pillars",
+      "title": "Holding Fast To The Head: A Song About Crumbling Pillars",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-07-27",
+      "description": "Holding Fast to the Head A Song About Crumbling Pillars",
+      "artwork": "https://f4.bcbits.com/img/a1307777302_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/holding-fast-to-the-head-a-song-about-crumbling-pillars",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }

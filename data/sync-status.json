@@ -1,12 +1,16 @@
 {
-  "lastSync": "2026-07-26T18:11:50.076Z",
-  "catalogReleaseCount": 162,
-  "libraryReleaseCount": 163,
-  "newReleaseCount": 1,
+  "lastSync": "2026-07-27T18:47:07.683Z",
+  "catalogReleaseCount": 164,
+  "libraryReleaseCount": 165,
+  "newReleaseCount": 2,
   "imported": [
     {
-      "title": "A View with Matthew",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-view-with-matthew"
+      "title": "The Texts of Time",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-texts-of-time"
+    },
+    {
+      "title": "Holding Fast To The Head: A Song About Crumbling Pillars",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/holding-fast-to-the-head-a-song-about-crumbling-pillars"
     }
   ],
   "outcome": "success"
