@@ -915,3 +915,119 @@ h1 {
     transition-duration: 0.01ms !important;
   }
 }
+/* =========================================================
+   COLLECTION HERO
+   ========================================================= */
+
+.collection-hero {
+  position: relative;
+  min-height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  isolation: isolate;
+  margin: 0 calc(50% - 50vw) 2rem;
+  padding: 0 1.5rem;
+  background-image: url("2ndpageLibrary.jpg");
+  background-size: cover;
+  background-position: center 48%;
+  text-align: center;
+}
+
+.collection-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(24, 16, 10, 0.18) 0%,
+      rgba(24, 16, 10, 0.06) 48%,
+      rgba(248, 244, 235, 0.45) 72%,
+      #f8f4eb 100%
+    );
+}
+
+.collection-hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 48%;
+  z-index: -1;
+  background: linear-gradient(
+    to bottom,
+    rgba(248, 244, 235, 0),
+    rgba(248, 244, 235, 0.88) 70%,
+    #f8f4eb 100%
+  );
+}
+
+.collection-hero-content {
+  width: min(1100px, 100%);
+  padding: 5rem 1rem 7rem;
+}
+
+.collection-hero-eyebrow {
+  margin: 0 0 1rem;
+  color: #f4d78d;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1rem, 1.5vw, 1.3rem);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.72);
+}
+
+.collection-hero h2 {
+  margin: 0;
+  color: #fffdf8;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-weight: 500;
+  line-height: 1.04;
+  text-wrap: balance;
+  text-shadow:
+    0 3px 14px rgba(0, 0, 0, 0.82),
+    0 1px 2px rgba(0, 0, 0, 0.95);
+}
+
+.collection-hero-subtitle {
+  margin: 1.5rem auto 0;
+  color: #7f292d;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.05rem, 2vw, 1.55rem);
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.5;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.9);
+}
+
+.collection-hero + .category-grid {
+  position: relative;
+  z-index: 2;
+  margin-top: -4rem;
+}
+
+@media (max-width: 700px) {
+  .collection-hero {
+    min-height: 360px;
+    margin-bottom: 1.5rem;
+    background-position: center center;
+  }
+
+  .collection-hero-content {
+    padding: 4rem 1rem 6rem;
+  }
+
+  .collection-hero-eyebrow {
+    letter-spacing: 0.11em;
+  }
+
+  .collection-hero + .category-grid {
+    margin-top: -3rem;
+  }
+}
