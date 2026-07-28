@@ -1120,4 +1120,18 @@ h1 {
   .library-intro .intro {
     bottom: 1.75rem;
   }
+}/* Bottom Library Image */
+
+.collection-picture {
+  width: 100%;
+  margin-top: 4rem;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.18);
+}
+
+.collection-picture img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
