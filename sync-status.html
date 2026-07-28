@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Latest automatic Bandcamp synchronization status for The Terry Kashian Library."
+  />
+  <title>Sync Status | The Terry Kashian Library</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="sync-status.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <a class="brand" href="library.html" aria-label="Return to The Terry Kashian Library">
+      <span class="brand-mark" aria-hidden="true">TK</span>
+      <span>The Terry Kashian Library</span>
+    </a>
+    <a class="back-link" href="library.html">
+      <span aria-hidden="true">←</span> Back to Library
+    </a>
+  </header>
+
+  <main id="main-content">
+    <section class="library-intro compact-intro">
+      <p class="eyebrow">Automation</p>
+      <h1>Bandcamp Sync Status</h1>
+      <p class="subtitle">A quick check that the public library is current.</p>
+    </section>
+
+    <section class="sync-status-panel" aria-live="polite">
+      <div class="sync-status-heading">
+        <span class="sync-status-mark" aria-hidden="true">✓</span>
+        <div>
+          <p class="eyebrow">Last successful sync</p>
+          <h2 id="sync-date">Loading…</h2>
+        </div>
+      </div>
+
+      <dl class="sync-stat-grid">
+        <div>
+          <dt>Bandcamp releases found</dt>
+          <dd id="catalog-release-count">—</dd>
+        </div>
+        <div>
+          <dt>Library releases</dt>
+          <dd id="library-release-count">—</dd>
+        </div>
+        <div>
+          <dt>New releases imported</dt>
+          <dd id="new-release-count">—</dd>
+        </div>
+      </dl>
+
+      <div id="imported-release-panel" class="imported-release-panel" hidden>
+        <h3>Imported in the latest sync</h3>
+        <ul id="imported-release-list"></ul>
+      </div>
+
+      <p id="sync-status-message" class="catalog-feedback">
+        Reading the latest sync report…
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>The Terry Kashian Library</p>
+    <a class="footer-bandcamp" href="https://terrykash.bandcamp.com" target="_blank" rel="noopener">
+      Visit Terry Kash on Bandcamp <span aria-hidden="true">↗</span>
+    </a>
+  </footer>
+</body>
+</html>

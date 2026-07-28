@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Explore The Kingdom Bible: New Testament and Heaven's Hidden Revolution by Terry Kashian."
+  />
+
+  <title>Books | The Terry Kashian Library</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    .books-page {
+      --book-burgundy: #681f32;
+      --book-burgundy-dark: #3e101f;
+      --book-burgundy-light: #842c45;
+      --book-gold: #d4af55;
+      --book-gold-light: #f1d88d;
+      --book-ivory: #fff8e8;
+    }
+
+    .books-intro {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 70px 24px 38px;
+      text-align: center;
+    }
+
+    .books-intro::after {
+      display: block;
+      width: min(500px, 75%);
+      height: 9px;
+      margin: 32px auto 0;
+      border-top: 1px solid var(--book-gold);
+      border-bottom: 1px solid var(--book-gold);
+      content: "";
+    }
+
+    .books-intro h1 {
+      margin-bottom: 18px;
+      color: var(--book-burgundy);
+    }
+
+    .books-intro .subtitle {
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: 1.08rem;
+      line-height: 1.75;
+    }
+
+    .books-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 24px 90px;
+    }
+
+    .library-return {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 30px;
+      color: var(--book-burgundy);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .library-return:hover {
+      color: #263b72;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .books-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 38px;
+      align-items: stretch;
+    }
+
+    .book-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      padding: 18px;
+      border: 3px double var(--book-gold);
+      border-radius: 24px;
+      background:
+        radial-gradient(
+          circle at top center,
+          rgba(255, 255, 255, 0.09),
+          transparent 35%
+        ),
+        linear-gradient(
+          145deg,
+          var(--book-burgundy-light),
+          var(--book-burgundy) 48%,
+          var(--book-burgundy-dark)
+        );
+      box-shadow:
+        0 20px 50px rgba(50, 10, 25, 0.25),
+        inset 0 0 28px rgba(255, 215, 120, 0.08);
+      color: var(--book-ivory);
+    }
+
+    .book-card::before,
+    .book-card::after {
+      position: absolute;
+      z-index: 1;
+      color: var(--book-gold-light);
+      font-size: 2rem;
+      line-height: 1;
+      opacity: 0.9;
+      content: "❧";
+      pointer-events: none;
+    }
+
+    .book-card::before {
+      top: 12px;
+      left: 15px;
+    }
+
+    .book-card::after {
+      right: 15px;
+      bottom: 12px;
+      transform: rotate(180deg);
+    }
+
+    .book-inner {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      padding: 30px;
+      border: 1px solid rgba(241, 216, 141, 0.72);
+      border-radius: 16px;
+      background: rgba(47, 8, 22, 0.2);
+    }
+
+    .book-cover-frame {
+      position: relative;
+      width: min(100%, 330px);
+      margin: 0 auto 28px;
+      padding: 10px;
+      border: 3px ridge var(--book-gold);
+      background:
+        linear-gradient(
+          145deg,
+          #f0d582,
+          #9d7025 45%,
+          #e7ca72 70%,
+          #80571b
+        );
+      box-shadow:
+        0 18px 32px rgba(0, 0, 0, 0.38),
+        0 0 22px rgba(255, 222, 130, 0.18);
+    }
+
+    .book-cover-frame img {
+      display: block;
+      width: 100%;
+      height: 430px;
+      border: 1px solid rgba(62, 16, 31, 0.7);
+      background: #efe4c4;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .book-label {
+      display: inline-block;
+      width: fit-content;
+      margin: 0 auto 16px;
+      padding: 7px 14px;
+      border: 1px solid rgba(241, 216, 141, 0.75);
+      border-radius: 999px;
+      background: rgba(255, 248, 232, 0.08);
+      color: var(--book-gold-light);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.76rem;
+      font-weight: 800;
+      letter-spacing: 0.11em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .book-card h2 {
+      margin: 0 0 18px;
+      color: var(--book-gold-light);
+      font-size: clamp(1.7rem, 3vw, 2.25rem);
+      line-height: 1.2;
+      text-align: center;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
+    }
+
+    .book-highlight {
+      margin: 0 0 21px;
+      color: #ffffff;
+      font-size: 1.08rem;
+      font-weight: 700;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .book-card p {
+      color: var(--book-ivory);
+      line-height: 1.75;
+    }
+
+    .book-card em {
+      color: var(--book-gold-light);
+    }
+
+    .book-note {
+      margin-top: 12px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(241, 216, 141, 0.45);
+    }
+
+    .book-action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      margin: auto auto 0;
+      padding: 14px 23px;
+      border: 1px solid #fff0b5;
+      border-radius: 999px;
+      background:
+        linear-gradient(
+          180deg,
+          #f3d982,
+          #c5983e
+        );
+      box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.75);
+      color: #421321;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      text-align: center;
+      text-decoration: none;
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        filter 0.2s ease;
+    }
+
+    .book-action:hover,
+    .book-action:focus-visible {
+      transform: translateY(-3px);
+      filter: brightness(1.06);
+      box-shadow:
+        0 13px 26px rgba(0, 0, 0, 0.32),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    }
+
+    @media (max-width: 900px) {
+      .books-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .book-card {
+        max-width: 680px;
+        margin-inline: auto;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .books-intro {
+        padding-top: 48px;
+      }
+
+      .books-section {
+        padding-inline: 14px;
+      }
+
+      .book-card {
+        padding: 10px;
+        border-radius: 18px;
+      }
+
+      .book-inner {
+        padding: 22px 18px;
+      }
+
+      .book-cover-frame {
+        width: min(100%, 285px);
+      }
+
+      .book-cover-frame img {
+        height: auto;
+        aspect-ratio: 2 / 3;
+      }
+    }
+  </style>
+
+  <script src="script.js" defer></script>
+</head>
+
+<body class="books-page">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <a
+      class="brand"
+      href="index.html"
+      aria-label="The Terry Kashian Library home"
+    >
+      <span class="brand-mark" aria-hidden="true">TK</span>
+      <span>The Terry Kashian Library</span>
+    </a>
+
+    <div class="header-links">
+      <a class="back-link" href="library.html">
+        <span aria-hidden="true">←</span> Back to Library
+      </a>
+
+      <a class="back-link" href="Contact.html">
+        Contact
+      </a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="books-intro">
+      <p class="eyebrow">Books and Biblical Resources</p>
+
+      <h1>Books by Terry Kashian</h1>
+
+      <p class="subtitle">
+        Explore works created to help readers understand Scripture, recognize
+        the unfolding purpose of God’s Kingdom, and approach the biblical text
+        within its original historical and covenantal setting.
+      </p>
+    </section>
+
+    <section class="books-section" aria-label="Books by Terry Kashian">
+      <a class="library-return" href="library.html">
+        <span aria-hidden="true">←</span> Return to all categories
+      </a>
+
+      <div class="books-grid">
+        <article class="book-card">
+          <div class="book-inner">
+            <div class="book-cover-frame">
+              <img
+                src="kingdom-bible-cover.jpeg"
+                alt="Cover of The Kingdom Bible: New Testament by Terry Kashian"
+              />
+            </div>
+
+            <span class="book-label">New Testament Translation</span>
+
+            <h2>The Kingdom Bible: New Testament</h2>
+
+            <p class="book-highlight">
+              The first published New Testament translation developed from a
+              consistently fulfilled (Preterist) perspective.
+            </p>
+
+            <p>
+              Translated from the Greek text,
+              <em>The Kingdom Bible: New Testament</em> is designed to help
+              readers interpret Scripture with Scripture. The overview of each
+              New Testament book introduces its historical setting, explains
+              symbols and idioms familiar to the Old Testament and
+              first-century world, and provides a framework for understanding
+              the New Testament within its original covenantal and cultural
+              context.
+            </p>
+
+            <p class="book-note">
+              This translation is not presented as a perfect or final work. It
+              is offered as a faithful contribution to the continuing work of
+              biblical translation—a foundation that future scholars and
+              translators can examine, refine, improve, and build upon for
+              generations to come.
+            </p>
+
+            <a
+              class="book-action"
+              href="https://authorreputationpress.com/bookstore/the-kingdom-bible-new-testament/"
+              target="_blank"
+              rel="noopener"
+            >
+              Explore The Kingdom Bible
+              <span aria-hidden="true">&nbsp;↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="book-card">
+          <div class="book-inner">
+            <div class="book-cover-frame">
+              <img
+                src="heavens-hidden-revolution-cover.png"
+                alt="Cover of Heaven's Hidden Revolution by Terry Kashian"
+              />
+            </div>
+
+            <span class="book-label">Paperback Book</span>
+
+            <h2>Heaven's Hidden Revolution</h2>
+
+            <p class="book-highlight">
+              Discover the unfolding story of God’s Kingdom and the
+              transforming purpose of Christ’s finished work.
+            </p>
+
+            <p>
+              <em>Heaven's Hidden Revolution</em> invites readers to reconsider
+              the biblical story through the lens of God’s Kingdom. It explores
+              how the life and work of Christ reveal a revolution deeper than
+              political or outward change—a transformation that begins within
+              and reshapes how believers understand Scripture, identity,
+              purpose, and daily life.
+            </p>
+
+            <p class="book-note">
+              This paperback is available directly through Amazon.
+            </p>
+
+            <a
+              class="book-action"
+              href="https://www.amazon.com/dp/B0FCRLN9FH"
+              target="_blank"
+              rel="noopener"
+            >
+              View Paperback on Amazon
+              <span aria-hidden="true">&nbsp;↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      © <span id="current-year">2026</span>
+      The Terry Kashian Library
+    </p>
+
+    <a class="footer-bandcamp" href="library.html">
+      Return to the Library <span aria-hidden="true">→</span>
+    </a>
+
+    <a
+      class="footer-bandcamp"
+      href="https://terrykash.bandcamp.com"
+      target="_blank"
+      rel="noopener"
+    >
+      Visit Terry Kash on Bandcamp <span aria-hidden="true">↗</span>
+    </a>
+  </footer>
+</body>
+</html>
