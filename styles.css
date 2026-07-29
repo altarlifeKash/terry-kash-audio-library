@@ -1097,17 +1097,27 @@ h1 {
 
 .library-intro h1 {
   max-width: min(1500px, 96vw);
-  color: #fffaf0;
+  color: transparent;
+  background: linear-gradient(
+    180deg,
+    #5a1f2d 0%,
+    #5a1f2d 52%,
+    #e3c27a 100%
+  );
+  background-clip: text;
+  filter:
+    drop-shadow(0 2px 2px rgba(29, 12, 17, 0.78))
+    drop-shadow(0 8px 14px rgba(0, 0, 0, 0.46));
   font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
-  font-size: clamp(3.75rem, 7vw, 7rem);
+  font-size: clamp(3.45rem, 6.44vw, 6.44rem);
   font-weight: 600;
   letter-spacing: -0.025em;
   line-height: 0.94;
   white-space: normal;
   text-wrap: balance;
-  text-shadow:
-    0 2px 3px rgba(33, 20, 13, 0.72),
-    0 8px 24px rgba(0, 0, 0, 0.48);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.45px rgba(228, 201, 139, 0.55);
 }
 
 .library-intro .subtitle {
@@ -1139,12 +1149,19 @@ h1 {
 .hero-ministry::before,
 .hero-ministry::after {
   color: #efc75e;
-  content: "✦";
   margin: 0 0.8rem;
   font-style: normal;
   text-shadow:
     0 0 10px rgba(255, 215, 90, 0.85),
     0 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+.hero-ministry::before {
+  content: "❧";
+}
+
+.hero-ministry::after {
+  content: "☙";
 }
 
 .hero-welcome {
@@ -1198,7 +1215,6 @@ h1 {
   top: 50%;
   color: #f6ce55;
   font-size: clamp(1rem, 2vw, 1.65rem);
-  content: "❖";
   transform: translateY(-50%);
   text-shadow:
     0 0 10px rgba(255, 218, 98, 0.95),
@@ -1207,10 +1223,12 @@ h1 {
 
 .hero-invitation::before {
   left: clamp(0.45rem, 1.6vw, 1.2rem);
+  content: "❧";
 }
 
 .hero-invitation::after {
   right: clamp(0.45rem, 1.6vw, 1.2rem);
+  content: "☙";
 }
 
 .library-intro .intro {
@@ -1248,7 +1266,7 @@ h1 {
 
   .library-intro h1 {
     max-width: min(94vw, 34rem);
-    font-size: clamp(2.15rem, 8.75vw, 3.15rem);
+    font-size: clamp(1.98rem, 8.05vw, 2.9rem);
     letter-spacing: -0.03em;
     line-height: 1;
   }
