@@ -30,11 +30,9 @@ body {
 
 .entrance-poster {
   position: relative;
-  width: min(100vw, 66.6667vh);
-  width: min(100vw, 66.6667dvh);
-  aspect-ratio: 2 / 3;
-  max-height: 100vh;
-  max-height: 100dvh;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 
