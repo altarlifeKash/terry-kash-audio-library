@@ -1038,7 +1038,7 @@ h1 {
 
 .library-intro {
   position: relative;
-  min-height: 720px;
+  min-height: 760px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1046,7 +1046,7 @@ h1 {
   overflow: hidden;
   isolation: isolate;
   margin: 0 calc(50% - 50vw);
-  padding: 6.5rem 1.5rem 11rem;
+  padding: 6.25rem 1.5rem 10.5rem;
   background-image: url("library-main-hero.jpg");
   background-size: cover;
   background-position: center center;
@@ -1065,10 +1065,11 @@ h1 {
   background:
     linear-gradient(
       to bottom,
-      rgba(28, 13, 20, 0.36) 0%,
-      rgba(28, 13, 20, 0.2) 48%,
-      rgba(248, 244, 235, 0.34) 74%,
-      rgba(248, 244, 235, 0.82) 100%
+      rgba(10, 6, 20, 0.54) 0%,
+      rgba(18, 10, 34, 0.42) 42%,
+      rgba(24, 13, 42, 0.34) 66%,
+      rgba(248, 244, 235, 0.18) 82%,
+      rgba(248, 244, 235, 0.92) 100%
     );
   content: "";
 }
@@ -1079,109 +1080,208 @@ h1 {
   bottom: 0;
   left: 0;
   z-index: -1;
-  height: 43%;
+  height: 34%;
   background: linear-gradient(
     to bottom,
     rgba(248, 244, 235, 0),
-    rgba(248, 244, 235, 0.9) 72%,
+    rgba(248, 244, 235, 0.9) 68%,
     #f8f4eb 100%
   );
   content: "";
 }
 
 .library-intro h1 {
-  color: #fffdf8;
+  max-width: min(1500px, 96vw);
+  color: #fffaf0;
+  font-size: clamp(3rem, 7.2vw, 7rem);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+  white-space: normal;
+  text-wrap: balance;
   text-shadow:
-    0 3px 14px rgba(72, 17, 36, 0.86),
-    0 1px 3px rgba(0, 0, 0, 0.92);
+    0 3px 0 rgba(110, 65, 18, 0.75),
+    0 8px 24px rgba(0, 0, 0, 0.92),
+    0 0 2px rgba(255, 236, 182, 0.95);
 }
 
 .library-intro .subtitle {
-  margin-top: 1.45rem;
-  color: #f4d78d;
-  font-size: clamp(1.25rem, 2.5vw, 1.8rem);
-  font-weight: 600;
-  letter-spacing: 0.025em;
+  margin-top: 1.55rem;
+  color: #f7d985;
+  font-size: clamp(1.65rem, 3.3vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
   text-shadow:
-    0 2px 7px rgba(80, 18, 40, 0.88),
-    0 1px 2px rgba(0, 0, 0, 0.8);
+    0 2px 0 rgba(111, 50, 26, 0.88),
+    0 5px 16px rgba(0, 0, 0, 0.88);
 }
 
 .hero-ministry {
-  margin: 1.1rem 0 0;
-  color: #fff8e7;
-  font-size: clamp(1.05rem, 1.7vw, 1.3rem);
+  margin: 1.35rem 0 0;
+  color: #fffaf0;
+  font-size: clamp(1.3rem, 2.25vw, 2rem);
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.02em;
   text-shadow:
-    0 2px 8px rgba(80, 18, 40, 0.85),
-    0 1px 2px rgba(0, 0, 0, 0.82);
+    0 3px 10px rgba(0, 0, 0, 0.95),
+    0 0 2px rgba(255, 233, 168, 0.8);
+}
+
+.hero-ministry::before,
+.hero-ministry::after {
+  color: #efc75e;
+  content: "✦";
+  margin: 0 0.8rem;
+  font-style: normal;
+  text-shadow:
+    0 0 10px rgba(255, 215, 90, 0.85),
+    0 2px 5px rgba(0, 0, 0, 0.9);
 }
 
 .hero-welcome {
-  margin: 1.55rem 0 0;
-  color: #fffdf8;
-  font-size: clamp(1.3rem, 2vw, 1.7rem);
-  font-weight: 600;
+  margin: 1.65rem 0 0;
+  color: #ffffff;
+  font-size: clamp(1.65rem, 3vw, 2.7rem);
+  font-weight: 700;
   letter-spacing: 0.01em;
   text-shadow:
-    0 2px 9px rgba(80, 18, 40, 0.88),
-    0 1px 2px rgba(0, 0, 0, 0.9);
+    0 3px 0 rgba(93, 47, 22, 0.68),
+    0 6px 18px rgba(0, 0, 0, 0.96);
 }
 
 .hero-invitation {
-  max-width: 900px;
-  margin: 2.2rem auto 2.3rem;
-  color: #e9cb76;
-  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
-  font-weight: 500;
-  line-height: 1.4;
-  letter-spacing: 0.02em;
+  position: relative;
+  width: min(1440px, calc(100vw - 2rem));
+  max-width: none;
+  margin: 2.1rem auto 0;
+  padding: 1rem clamp(1rem, 3vw, 2.5rem);
+  border-top: 3px solid #f5d46c;
+  border-bottom: 3px solid #d7a923;
+  border-radius: 10px;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(42, 40, 146, 0.98) 0%,
+      rgba(19, 29, 112, 0.98) 52%,
+      rgba(11, 19, 83, 0.99) 100%
+    );
+  color: #ffe38a;
+  font-size: clamp(1.45rem, 3vw, 2.65rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.005em;
   text-wrap: balance;
+  box-shadow:
+    0 0 0 1px rgba(255, 225, 128, 0.55),
+    0 0 24px rgba(255, 204, 64, 0.5),
+    0 12px 28px rgba(0, 0, 0, 0.48);
   text-shadow:
-    0 2px 3px rgba(80, 18, 40, 0.9),
-    0 0 13px rgba(80, 18, 40, 0.42);
+    0 2px 0 rgba(92, 43, 0, 0.92),
+    0 4px 10px rgba(0, 0, 0, 0.88),
+    0 0 9px rgba(255, 216, 105, 0.38);
+}
+
+.hero-invitation::before,
+.hero-invitation::after {
+  position: absolute;
+  top: 50%;
+  color: #f6ce55;
+  font-size: clamp(1rem, 2vw, 1.65rem);
+  content: "❖";
+  transform: translateY(-50%);
+  text-shadow:
+    0 0 10px rgba(255, 218, 98, 0.95),
+    0 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+.hero-invitation::before {
+  left: clamp(0.45rem, 1.6vw, 1.2rem);
+}
+
+.hero-invitation::after {
+  right: clamp(0.45rem, 1.6vw, 1.2rem);
 }
 
 .library-intro .intro {
   position: absolute;
-  bottom: 2.5rem;
+  bottom: 2rem;
   left: 50%;
-  width: min(850px, calc(100% - 3rem));
+  width: min(880px, calc(100% - 3rem));
   margin: 0;
-  color: #4e433b;
-  font-size: clamp(0.98rem, 1.45vw, 1.08rem);
-  line-height: 1.7;
+  color: #40372f;
+  font-size: clamp(0.98rem, 1.35vw, 1.08rem);
+  line-height: 1.68;
   text-shadow: none;
   transform: translateX(-50%);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .library-intro {
-    min-height: 650px;
-    padding: 4.75rem 1.25rem 10rem;
-    background-position: center center;
-  }
-
-  .hero-ministry {
-    margin-top: 0.9rem;
-  }
-
-  .hero-welcome {
-    margin-top: 1.2rem;
+    min-height: 720px;
+    padding: 5rem 1rem 10.5rem;
   }
 
   .hero-invitation {
-    margin: 1.65rem auto 1.9rem;
-    font-size: clamp(1.18rem, 5vw, 1.5rem);
+    width: min(95vw, 900px);
+    padding-inline: 2.4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .library-intro {
+    min-height: 690px;
+    padding: 4.4rem 1rem 11.5rem;
+    background-position: center center;
+  }
+
+  .library-intro h1 {
+    font-size: clamp(2.45rem, 11.5vw, 4.1rem);
+    line-height: 1.02;
+  }
+
+  .library-intro .subtitle {
+    margin-top: 1.1rem;
+    font-size: clamp(1.35rem, 7vw, 2rem);
+  }
+
+  .hero-ministry {
+    margin-top: 1rem;
+    font-size: clamp(1.08rem, 5.4vw, 1.45rem);
+  }
+
+  .hero-ministry::before,
+  .hero-ministry::after {
+    margin-inline: 0.4rem;
+  }
+
+  .hero-welcome {
+    margin-top: 1.25rem;
+    font-size: clamp(1.35rem, 6.4vw, 1.9rem);
+  }
+
+  .hero-invitation {
+    width: calc(100vw - 1rem);
+    margin-top: 1.55rem;
+    padding: 0.9rem 2.1rem;
+    border-radius: 7px;
+    font-size: clamp(1.08rem, 5.4vw, 1.45rem);
+  }
+
+  .hero-invitation::before {
+    left: 0.45rem;
+  }
+
+  .hero-invitation::after {
+    right: 0.45rem;
   }
 
   .library-intro .intro {
-    bottom: 1.6rem;
-    width: min(90%, 850px);
-    font-size: 0.94rem;
-    line-height: 1.58;
+    bottom: 1.35rem;
+    width: min(92%, 850px);
+    font-size: 0.92rem;
+    line-height: 1.55;
   }
 }
 
