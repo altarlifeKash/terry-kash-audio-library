@@ -1046,7 +1046,7 @@ h1 {
   overflow: hidden;
   isolation: isolate;
   margin: 0 calc(50% - 50vw);
-  padding: 7rem 1.5rem 10rem;
+  padding: 6.5rem 1.5rem 11rem;
   background-image: url("library-main-hero.jpg");
   background-size: cover;
   background-position: center center;
@@ -1062,7 +1062,14 @@ h1 {
   height: auto;
   margin: 0;
   border: 0;
-  background: rgba(25, 17, 10, 0.22);
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(28, 13, 20, 0.36) 0%,
+      rgba(28, 13, 20, 0.2) 48%,
+      rgba(248, 244, 235, 0.34) 74%,
+      rgba(248, 244, 235, 0.82) 100%
+    );
   content: "";
 }
 
@@ -1072,7 +1079,7 @@ h1 {
   bottom: 0;
   left: 0;
   z-index: -1;
-  height: 42%;
+  height: 43%;
   background: linear-gradient(
     to bottom,
     rgba(248, 244, 235, 0),
@@ -1082,21 +1089,59 @@ h1 {
   content: "";
 }
 
-.library-intro .eyebrow {
-  color: #f4d78d;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
-}
-
 .library-intro h1 {
   color: #fffdf8;
   text-shadow:
-    0 3px 14px rgba(0, 0, 0, 0.82),
-    0 1px 2px rgba(0, 0, 0, 0.95);
+    0 3px 14px rgba(72, 17, 36, 0.86),
+    0 1px 3px rgba(0, 0, 0, 0.92);
 }
 
 .library-intro .subtitle {
-  color: #f7dfa1;
-  text-shadow: 0 2px 9px rgba(0, 0, 0, 0.8);
+  margin-top: 1.45rem;
+  color: #f4d78d;
+  font-size: clamp(1.25rem, 2.5vw, 1.8rem);
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  text-shadow:
+    0 2px 7px rgba(80, 18, 40, 0.88),
+    0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.hero-ministry {
+  margin: 1.1rem 0 0;
+  color: #fff8e7;
+  font-size: clamp(1.05rem, 1.7vw, 1.3rem);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-shadow:
+    0 2px 8px rgba(80, 18, 40, 0.85),
+    0 1px 2px rgba(0, 0, 0, 0.82);
+}
+
+.hero-welcome {
+  margin: 1.55rem 0 0;
+  color: #fffdf8;
+  font-size: clamp(1.3rem, 2vw, 1.7rem);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-shadow:
+    0 2px 9px rgba(80, 18, 40, 0.88),
+    0 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.hero-invitation {
+  max-width: 900px;
+  margin: 2.2rem auto 2.3rem;
+  color: #e9cb76;
+  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-wrap: balance;
+  text-shadow:
+    0 2px 3px rgba(80, 18, 40, 0.9),
+    0 0 13px rgba(80, 18, 40, 0.42);
 }
 
 .library-intro .intro {
@@ -1106,21 +1151,41 @@ h1 {
   width: min(850px, calc(100% - 3rem));
   margin: 0;
   color: #4e433b;
+  font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+  line-height: 1.7;
   text-shadow: none;
   transform: translateX(-50%);
 }
 
 @media (max-width: 700px) {
   .library-intro {
-    min-height: 610px;
-    padding: 5rem 1.25rem 9rem;
+    min-height: 650px;
+    padding: 4.75rem 1.25rem 10rem;
     background-position: center center;
   }
 
-  .library-intro .intro {
-    bottom: 1.75rem;
+  .hero-ministry {
+    margin-top: 0.9rem;
   }
-}/* Bottom Library Image */
+
+  .hero-welcome {
+    margin-top: 1.2rem;
+  }
+
+  .hero-invitation {
+    margin: 1.65rem auto 1.9rem;
+    font-size: clamp(1.18rem, 5vw, 1.5rem);
+  }
+
+  .library-intro .intro {
+    bottom: 1.6rem;
+    width: min(90%, 850px);
+    font-size: 0.94rem;
+    line-height: 1.58;
+  }
+}
+
+/* Bottom Library Image */
 
 .collection-picture {
   width: 100%;
