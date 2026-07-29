@@ -1100,9 +1100,10 @@ h1 {
   color: transparent;
   background: linear-gradient(
     180deg,
-    #5a1f2d 0%,
-    #5a1f2d 52%,
-    #e3c27a 100%
+    #f0d78c 0%,
+    #ddb866 18%,
+    #9a5a52 65%,
+    #5a1f2d 100%
   );
   background-clip: text;
   filter:
