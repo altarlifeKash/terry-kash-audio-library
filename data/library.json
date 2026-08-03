@@ -2107,6 +2107,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/beyond-creation-science",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "the-cosmic-exchange",
+      "title": "The Cosmic Exchange",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-08-03",
+      "description": "The Cosmic Exchange",
+      "artwork": "https://f4.bcbits.com/img/a0296207721_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-cosmic-exchange",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
