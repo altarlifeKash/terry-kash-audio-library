@@ -1,8 +1,13 @@
 {
-  "lastSync": "2026-08-08T17:45:52.498Z",
-  "catalogReleaseCount": 167,
-  "libraryReleaseCount": 168,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-08-09T17:47:05.318Z",
+  "catalogReleaseCount": 168,
+  "libraryReleaseCount": 169,
+  "newReleaseCount": 1,
+  "imported": [
+    {
+      "title": "I Didn't See You Coming",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/i-didnt-see-you-coming"
+    }
+  ],
   "outcome": "success"
 }
