@@ -1,17 +1,8 @@
 {
-  "lastSync": "2026-08-13T18:06:57.623Z",
+  "lastSync": "2026-08-14T18:05:44.424Z",
   "catalogReleaseCount": 170,
   "libraryReleaseCount": 171,
-  "newReleaseCount": 2,
-  "imported": [
-    {
-      "title": "A Moment with the Master -Cinematic Version",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-moment-with-the-master-cinematic-version"
-    },
-    {
-      "title": "A Moment with the Master",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-moment-with-the-master"
-    }
-  ],
+  "newReleaseCount": 0,
+  "imported": [],
   "outcome": "success"
 }
