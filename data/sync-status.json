@@ -1,16 +1,12 @@
 {
-  "lastSync": "2026-08-19T17:39:14.811Z",
-  "catalogReleaseCount": 172,
-  "libraryReleaseCount": 173,
-  "newReleaseCount": 2,
+  "lastSync": "2026-08-20T17:45:09.087Z",
+  "catalogReleaseCount": 173,
+  "libraryReleaseCount": 174,
+  "newReleaseCount": 1,
   "imported": [
     {
-      "title": "Happy Birthday Trini",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/happy-birthday-trini"
-    },
-    {
-      "title": "The Blueprint: Prophetic Plan",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-blueprint-prophetic-plan"
+      "title": "The Heavens Are Mirrored in Me",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-heavens-are-mirrored-in-me"
     }
   ],
   "outcome": "success"
