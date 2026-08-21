@@ -2191,6 +2191,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/the-heavens-are-mirrored-in-me",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "the-mirror",
+      "title": "The Mirror",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-08-20",
+      "description": "“The Mirror” was born from a beautiful and deeply personal poem written by Dr. Gary Wilkerson. His words describe a man looking into a mirror expecting to see himself, only to be drawn deeper until his familiar image disappears and the radiant Image of his Creator begins to emerge. I was profoundly moved when Gary entrusted this poem to me and asked me to bring it into song. I have sought to preserve the heart, reve…",
+      "artwork": "https://f4.bcbits.com/img/a0543696278_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-mirror",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
