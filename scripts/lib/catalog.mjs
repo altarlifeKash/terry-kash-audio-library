@@ -231,8 +231,12 @@ export function validateCatalog(catalog) {
     ) {
       errors.push(`${label}.releaseDate must use YYYY-MM-DD.`);
     }
-    if (release.artwork && !/^https:\/\//u.test(release.artwork)) {
-      errors.push(`${label}.artwork must use HTTPS.`);
+    if (
+      release.artwork &&
+      !/^https:\/\//u.test(release.artwork) &&
+      !/^(?![/.])(?!.*\.\.)(?:[^/]+\/)*[^/]+\.(?:png|jpe?g|webp)$/iu.test(release.artwork)
+    ) {
+      errors.push(`${label}.artwork must use HTTPS or a safe local image path.`);
     }
   });
   return errors;
