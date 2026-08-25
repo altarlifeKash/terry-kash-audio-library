@@ -26,7 +26,7 @@
     .payment-box strong{display:block;color:var(--bp-wine);font:800 .74rem Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
     .payment-box span{display:block;margin-top:5px;color:var(--bp-blue);font-size:1.35rem;font-weight:800}
     .purchase-steps{font-family:Arial,Helvetica,sans-serif;line-height:1.75}
-    .email-button{display:inline-flex;padding:13px 22px;border-radius:999px;background:linear-gradient(#f3d982,#c5983e);color:#421321;font:800 .9rem Arial,sans-serif;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,.18)}
+    .payment-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:22px}.zelle-button,.email-button{display:inline-flex;padding:13px 22px;border-radius:999px;background:linear-gradient(#f3d982,#c5983e);color:#421321;font:800 .9rem Arial,sans-serif;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,.18)}.zelle-button{background:linear-gradient(#7c4dff,#5b2acb);color:#fff}.payment-note{font-family:Arial,Helvetica,sans-serif;line-height:1.6;margin:12px 0 0;color:#421321}
     .preview{margin-top:52px}
     .preview-intro{max-width:760px;color:#6f655b;font-family:Arial,Helvetica,sans-serif}
     .preview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:25px}
@@ -59,17 +59,21 @@
     <section class="purchase" aria-labelledby="purchase-title">
       <p class="eyebrow">Purchase</p><h2 id="purchase-title">Purchase the Digital Flip Book</h2>
       <div class="payment-box"><div><strong>Zelle Tag</strong><span>KingdomLight</span></div><div><strong>Recipient Name</strong><span>CHURCH IN TUCSON</span></div></div>
-      <ol class="purchase-steps"><li>Open Zelle through your bank or credit union.</li><li>Send <strong>$10</strong> to the tag <strong>KingdomLight</strong>.</li><li>Before sending, confirm that the recipient appears as <strong>CHURCH IN TUCSON</strong>.</li><li>Enter <strong>BLUEPRINT – your name</strong> in the payment memo.</li><li>After payment, email your name and delivery email address. Your private flip-book access will be sent after payment is confirmed.</li></ol>
-      <a class="email-button" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=altarlife%40gmail.com&amp;su=The+Blueprint+Purchase&amp;body=Thank+you+for+purchasing+The+Blueprint%3A+Prophetic+Planning.%0A%0APlease+provide+the+information+below+so+I+can+confirm+your+payment+and+send+your+private+digital+edition.%0A%0AMy+name+is%3A%0AThe+name+used+for+my+Zelle+payment+is%3A%0AMy+delivery+email+address+is%3A%0A%0AThank+you%2C%0ATerry+Kashian%0AKingdom+Light+Publishers" target="_blank" rel="noopener noreferrer">Send Payment Notice</a>
+      <ol class="purchase-steps"><li><strong>Make your payment first.</strong> Open Zelle in your bank or credit union app.</li><li>Send <strong>$10</strong> to the Zelle Tag <strong>KingdomLight</strong>.</li><li>Before sending, confirm the recipient appears as <strong>CHURCH IN TUCSON</strong>.</li><li>Enter <strong>BLUEPRINT – your name</strong> in the memo.</li><li>After the payment is complete, click <strong>I’ve Sent My Payment</strong> below so I can confirm it and send your private digital edition.</li></ol>
+      <div class="payment-actions"><a class="zelle-button" href="https://register.zellepay.com/" target="_blank" rel="noopener noreferrer">Find Your Bank for Zelle</a><a class="email-button" href="mailto:altarlife@gmail.com?subject=The%20Blueprint%20Payment%20Notice&amp;body=I%20have%20sent%20my%20%2410%20Zelle%20payment%20for%20The%20Blueprint.%0A%0AMy%20name%20is%3A%0AThe%20name%20used%20for%20my%20Zelle%20payment%20is%3A%0AMy%20delivery%20email%20address%20is%3A%0A%0AThank%20you%2C%0ATerry%20Kashian%0AKingdom%20Light%20Publishers">I’ve Sent My Payment</a></div>
+      <p class="payment-note"><strong>Important:</strong> Zelle payment is completed inside your participating bank or credit union app. The second button sends only your payment confirmation and delivery information.</p>
       <p class="delivery-note"><strong>Delivery:</strong> This is a manually confirmed digital purchase. The complete 78-page edition is not stored on this public page.</p>
     </section>
     <section class="preview" aria-labelledby="preview-title">
       <p class="eyebrow">Inside the Book</p><h2 id="preview-title">Preview Selected Pages</h2>
       <p class="preview-intro">These selected pages introduce the book’s movement from Genesis’s prophetic pattern, through Israel in type, and into the Reality revealed in Christ.</p>
       <div class="preview-grid">
+        <figure class="preview-page"><img src="blueprint-preview/page-013.jpg" alt="Preview page from Day One" loading="lazy" /></figure>
+        <figure class="preview-page"><img src="blueprint-preview/page-017.jpg" alt="Preview page introducing Day Two" loading="lazy" /></figure>
+        <figure class="preview-page"><img src="blueprint-preview/page-023.jpg" alt="Preview page introducing Day Three" loading="lazy" /></figure>
         <figure class="preview-page"><img src="blueprint-preview/page-036.jpg" alt="Preview page concerning Christ and His light-bearing people" loading="lazy" /></figure>
         <figure class="preview-page"><img src="blueprint-preview/page-064.jpg" alt="Preview page concerning God’s living House" loading="lazy" /></figure>
-        <figure class="preview-page"><img src="blueprint-preview/page-066.jpg" alt="Preview page concerning the completed City and Day Seven" loading="lazy" /></figure>
+        <figure class="preview-page"><img src="blueprint-preview/page-066.jpg" alt="Preview page concerning the completed City" loading="lazy" /></figure>
       </div>
     </section>
   </main>
