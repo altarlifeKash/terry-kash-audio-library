@@ -200,6 +200,19 @@
       text-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
     }
 
+
+    .assembly-card-title span {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .assembly-card-title {
+      font-size: clamp(1.45rem, 2.35vw, 2rem) !important;
+      overflow-wrap: normal !important;
+      word-break: keep-all !important;
+      hyphens: none !important;
+    }
+
     .book-highlight {
       margin: 0 0 21px;
       color: #ffffff;
@@ -306,6 +319,7 @@
   </style>
 
   <script src="script.js" defer></script>
+
 </head>
 
 <body class="books-page">
@@ -482,7 +496,7 @@
           <div class="book-inner">
             <div class="book-cover-frame"><img src="misunderstood-assembly-cover.png" alt="Cover of The Misunderstood Assembly by Terry Kashian" /></div>
             <span class="book-label">Interactive Digital Flip Book</span>
-            <h2>The Misunderstood Assembly</h2>
+            <h2 class="assembly-card-title"><span>The</span><span>Misunderstood</span><span>Assembly</span></h2>
             <p class="book-highlight">Rediscovering What Christ Meant When He Said, “I Will Build My Ekklesia”</p>
             <p><em>The Misunderstood Assembly</em> returns to Christ’s declaration and follows the New Testament’s living picture of His building—living stones, God’s House, the Body of Christ, locality, maturity, stewardship, mutual supply, and the functioning of the saints.</p>
             <p class="book-note">76 full-size 8.5 × 11-inch pages. Digital flip-book edition: $10. Published by Kingdom Light Publishers.</p>
