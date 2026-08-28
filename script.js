@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var PAGE_SIZE = 24;
+  var PAGE_SIZE = 12;
   var statusTitle = document.getElementById("status-title");
   var statusMessage = document.getElementById("status-message");
   var statusPanel = document.getElementById("catalog-status");
