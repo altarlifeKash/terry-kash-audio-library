@@ -2203,6 +2203,30 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/the-mirror",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "leaning-on-the-staff",
+      "title": "Leaning On The Staff",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-08-27",
+      "description": "Leaning on the Staff is the story of Jacob’s encounter with God at Penuel—a night that changed not only his name, but the way he walked.",
+      "artwork": "https://f4.bcbits.com/img/a4283103404_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/leaning-on-the-staff",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "not-yet-does-not-mean-never",
+      "title": "Not Yet Does Not Mean Never",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-08-26",
+      "description": "“Not Yet Does Not Mean Never” is a song for anyone who has ever waited longer than expected, wondered why something hasn’t happened yet, or been tempted to believe that delay means denial.",
+      "artwork": "https://f4.bcbits.com/img/a1586738217_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/not-yet-does-not-mean-never",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
