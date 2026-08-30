@@ -2227,6 +2227,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/not-yet-does-not-mean-never",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "the-viper",
+      "title": "The Viper",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-08-30",
+      "description": "The Viper The Viper was inspired by Paul’s experience on the island of Malta—a story of shipwreck, service, sudden attack, human judgment, and the remarkable purpose of God working through it all.",
+      "artwork": "https://f4.bcbits.com/img/a0483266768_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-viper",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
