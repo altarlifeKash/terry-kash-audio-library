@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Misunderstood Assembly — Terry Kashian</title>
+<style>
+:root{--paper:#fff;--ink:#1c1c1c;--bg:#151515;--panel:#232323;--gold:#c9a44a}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:var(--bg);color:#eee;font-family:Georgia,"Times New Roman",serif}
+body{display:flex;flex-direction:column}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 16px;background:#0d0d0d;border-bottom:1px solid #333;position:sticky;top:0;z-index:10}
+.title{font-size:clamp(14px,2vw,19px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.title span{color:#cfcfcf;font-size:.82em}
+.controls{display:flex;align-items:center;gap:8px}
+button{border:1px solid #555;background:#262626;color:#fff;border-radius:8px;padding:8px 12px;font-size:15px;cursor:pointer}
+button:hover{border-color:var(--gold)}
+button:disabled{opacity:.35;cursor:default}
+#count{min-width:150px;text-align:center;font-size:14px;color:#ddd}
+.stage{flex:1;display:flex;align-items:center;justify-content:center;padding:18px 12px 12px;overflow:hidden}
+.book{display:flex;justify-content:center;align-items:center;max-width:1500px;width:100%;height:calc(100vh - 112px);perspective:1800px}
+.pagewrap{height:100%;max-width:50%;display:flex;align-items:center;justify-content:center}
+.pagewrap img{display:block;max-height:100%;max-width:100%;width:auto;height:auto;background:var(--paper);box-shadow:0 10px 35px rgba(0,0,0,.5)}
+.left img{transform-origin:right center}
+.right img{transform-origin:left center}
+.book:not(.covermode) .left img{border-right:1px solid #bbb}
+.book:not(.covermode) .right img{border-left:1px solid #ddd}
+.covermode .left{visibility:hidden}
+.covermode .right{max-width:55%}
+.covermode .right img{box-shadow:0 12px 40px rgba(0,0,0,.65)}
+footer{text-align:center;padding:7px 12px 10px;color:#aaa;font-size:12px}
+@media(max-width:760px){
+ header{padding:8px 10px;flex-wrap:wrap}
+ .title{width:100%;text-align:center}
+ .controls{width:100%;justify-content:center}
+ #count{min-width:120px}
+ .stage{padding:10px 6px}
+ .book{height:calc(100vh - 145px)}
+ .pagewrap{max-width:100%;width:100%}
+ .left{display:none}
+ .right{max-width:100%!important}
+ footer{display:none}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="title">The Misunderstood Assembly <span>— Terry Kashian</span></div>
+  <div class="controls">
+    <button id="prev" aria-label="Previous page">←</button>
+    <div id="count">Cover</div>
+    <button id="next" aria-label="Next page">→</button>
+  </div>
+</header>
+
+<main class="stage">
+  <div class="book covermode" id="book">
+    <div class="pagewrap left"><img id="left" alt=""></div>
+    <div class="pagewrap right"><img id="right" alt="Book cover"></div>
+  </div>
+</main>
+<footer>Use the arrow keys, buttons, or click the page edges to turn pages.</footer>
+
+<script>
+const TOTAL=76;
+let pos=0; // 0=cover. Desktop thereafter: 1/2, 3/4... Mobile: one page.
+const $=s=>document.querySelector(s),book=$('#book'),L=$('#left'),R=$('#right'),
+      count=$('#count'),prev=$('#prev'),next=$('#next');
+const mobile=()=>matchMedia('(max-width:760px)').matches;
+const src=n=>n===0?'cover.jpg':`pages/page-${String(n).padStart(3,'0')}.jpg`;
+
+function paint(){
+  if(pos===0){
+    book.classList.add('covermode');
+    L.style.visibility='hidden';
+    R.style.visibility='visible';
+    R.src=src(0); R.alt='The Misunderstood Assembly cover';
+    count.textContent='Cover';
+  } else if(mobile()){
+    book.classList.remove('covermode');
+    L.style.visibility='hidden';
+    R.style.visibility='visible';
+    R.src=src(pos); R.alt=`Page ${pos}`;
+    count.textContent=`Page ${pos} of ${TOTAL}`;
+  } else {
+    book.classList.remove('covermode');
+    let left=pos===1?0:pos-1, right=pos;
+    L.style.visibility=left<=TOTAL?'visible':'hidden';
+    R.style.visibility=right<=TOTAL?'visible':'hidden';
+    if(left<=TOTAL){L.src=src(left);L.alt=`Page ${left}`}
+    if(right<=TOTAL){R.src=src(right);R.alt=`Page ${right}`}
+    count.textContent=right<=TOTAL?`Pages ${left}–${right} of ${TOTAL}`:`Page ${left} of ${TOTAL}`;
+  }
+  prev.disabled=pos===0;
+  next.disabled=pos>=TOTAL;
+  preload();
+}
+function forward(){
+  if(pos===0) pos=1;
+  else pos=Math.min(TOTAL,pos+(mobile()?1:(pos===1?2:2)));
+  paint();
+}
+function back(){
+  if(pos<=1) pos=0;
+  else pos=Math.max(1,pos-(mobile()?1:2));
+  paint();
+}
+function preload(){
+  let nums=[];
+  if(pos===0) nums=[1,2];
+  else nums=[pos+1,pos+2,pos+3].filter(n=>n<=TOTAL);
+  nums.forEach(n=>{let i=new Image();i.src=src(n)});
+}
+prev.onclick=back; next.onclick=forward;
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key==='PageDown') forward();
+  if(e.key==='ArrowLeft'||e.key==='PageUp') back();
+});
+book.addEventListener('click',e=>{
+  const r=book.getBoundingClientRect();
+  if(e.clientX<r.left+r.width*.42) back();
+  else if(e.clientX>r.left+r.width*.58) forward();
+});
+let startX=null;
+book.addEventListener('touchstart',e=>startX=e.changedTouches[0].clientX,{passive:true});
+book.addEventListener('touchend',e=>{
+  if(startX===null)return;
+  const dx=e.changedTouches[0].clientX-startX;
+  if(Math.abs(dx)>45)(dx<0?forward:back)();
+  startX=null;
+},{passive:true});
+addEventListener('resize',()=>{ if(!mobile() && pos>1 && pos%2===0) pos--; paint(); });
+paint();
+</script>
+</body>
+</html>
