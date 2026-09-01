@@ -2239,6 +2239,30 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/the-viper",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "i-want-to-see-you",
+      "title": "I Want To See You",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-01",
+      "description": "“I Want to See You” was born during a quiet moment of singing to the Lord. I opened Psalm 63 and began reading David’s words: “O God, You are my God… my soul thirsts for You.” As I read, those words began becoming a song. This song follows the movement of that Psalm—from thirst to satisfaction, from longing to praise, from seeking God to resting beneath the shadow of His wings. At its heart is one simple desire: I w…",
+      "artwork": "https://f4.bcbits.com/img/a1511632144_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/i-want-to-see-you",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "are-we-headin-for-armaggedon",
+      "title": "Are We Headin' For Armaggedon",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-08-31",
+      "description": "Are We Headin’ for Armageddon? What happens when every war becomes a prophecy, every earthquake becomes a sign, every headline gets another chart—and somehow it all keeps landing on our generation? Are We Headin’ for Armageddon? takes a satirical look at the machinery of modern end-times sensationalism: the recycled predictions, the shifting players, the “breaking news” urgency, and the remarkable ability to keep up…",
+      "artwork": "https://f4.bcbits.com/img/a3072631310_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/are-we-headin-for-armaggedon",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
