@@ -1,17 +1,8 @@
 {
-  "lastSync": "2026-09-01T19:56:35.621Z",
+  "lastSync": "2026-09-02T19:47:38.273Z",
   "catalogReleaseCount": 179,
   "libraryReleaseCount": 180,
-  "newReleaseCount": 2,
-  "imported": [
-    {
-      "title": "I Want To See You",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/i-want-to-see-you"
-    },
-    {
-      "title": "Are We Headin' For Armaggedon",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/are-we-headin-for-armaggedon"
-    }
-  ],
+  "newReleaseCount": 0,
+  "imported": [],
   "outcome": "success"
 }
