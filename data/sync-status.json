@@ -1,8 +1,17 @@
 {
-  "lastSync": "2026-09-02T19:47:38.273Z",
-  "catalogReleaseCount": 179,
-  "libraryReleaseCount": 180,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-09-03T19:50:52.003Z",
+  "catalogReleaseCount": 181,
+  "libraryReleaseCount": 182,
+  "newReleaseCount": 2,
+  "imported": [
+    {
+      "title": "祢开启了我的心 Nǐ Kāiqǐle Wǒ de Xīn",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/n-k-iq-le-w-de-x-n"
+    },
+    {
+      "title": "You Opened My Heart",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/you-opened-my-heart"
+    }
+  ],
   "outcome": "success"
 }
