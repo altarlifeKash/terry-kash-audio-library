@@ -2299,6 +2299,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/n-k-iq-le-w-de-x-n-you-opened-my-heart",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "but-you-said",
+      "title": "But You Said",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-06",
+      "description": "BUT YOU SAID",
+      "artwork": "https://f4.bcbits.com/img/a2851662971_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/but-you-said",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }

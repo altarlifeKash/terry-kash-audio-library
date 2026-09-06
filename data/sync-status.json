@@ -1,8 +1,13 @@
 {
-  "lastSync": "2026-09-05T19:02:06.313Z",
-  "catalogReleaseCount": 182,
-  "libraryReleaseCount": 183,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-09-06T19:09:51.771Z",
+  "catalogReleaseCount": 183,
+  "libraryReleaseCount": 184,
+  "newReleaseCount": 1,
+  "imported": [
+    {
+      "title": "But You Said",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/but-you-said"
+    }
+  ],
   "outcome": "success"
 }
