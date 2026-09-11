@@ -2325,6 +2325,18 @@
       "reviewFlags": [
         "description"
       ]
+    },
+    {
+      "id": "the-famine-is-over",
+      "title": "The Famine Is Over",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-10",
+      "description": "The Famine Is Over began with a simple conviction: God is not silent.",
+      "artwork": "https://f4.bcbits.com/img/a1354010261_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-famine-is-over",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
