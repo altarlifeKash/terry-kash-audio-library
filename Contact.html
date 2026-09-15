@@ -3,17 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <meta
-    name="description"
-    content="Contact Terry Kashian and The Terry Kashian Library."
-  />
-
+  <meta name="description" content="Contact Terry Kashian and The Terry Kashian Library." />
   <title>Contact | The Terry Kashian Library</title>
-
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .payment-confirmation { margin: 0 0 2rem; padding: 1.5rem; border: 2px solid #d4af55; border-radius: 16px; background: #fffaf0; }
+    .payment-confirmation h2 { margin: .2rem 0 .8rem; color: #681f32; }
+  </style>
 </head>
-
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
@@ -22,71 +19,64 @@
       <span class="brand-mark" aria-hidden="true">TK</span>
       <span>The Terry Kashian Library</span>
     </a>
-
     <div class="header-links">
-      <a class="back-link" href="library.html">
-        <span aria-hidden="true">←</span> Back to Library
-      </a>
-
-      <a class="back-link" href="index.html">
-        Entrance
-      </a>
+      <a class="back-link" href="library.html">← Back to Library</a>
+      <a class="back-link" href="index.html">Entrance</a>
     </div>
   </header>
 
   <main id="main-content">
     <section class="library-intro" aria-labelledby="contact-title">
+      <div class="payment-confirmation" id="payment-confirmation" hidden aria-live="polite">
+        <p class="eyebrow">Payment Confirmation</p>
+        <h2 id="payment-title">Thank You for Your Payment</h2>
+        <p class="intro">Please send your payment details so Terry can confirm your purchase and email your private digital edition within 24 hours.</p>
+        <p><a class="bandcamp-button" id="payment-email" href="mailto:altarlife@gmail.com">Send Payment Confirmation</a></p>
+      </div>
 
       <p class="eyebrow">Connect</p>
-
       <h1 id="contact-title">I'd Love to Hear From You</h1>
-
-      <p class="subtitle">
-        Thank you for visiting The Terry Kashian Library.
-      </p>
-
-      <p class="intro">
-        Whether you have a question about a song, an audiobook, a teaching, a story,
-        would like to invite me to minister, or simply want to share how the Lord has
-        encouraged you through this library, you're always welcome to write.
-      </p>
-
-      <p class="intro">
-        It is my prayer that these songs, stories, audiobooks, and teachings
-        continue to encourage you in Christ and draw you deeper into His life.
-      </p>
-
-      <p class="intro">
-        I read every message personally and look forward to hearing from you.
-      </p>
-
-      <p class="intro">
-        <strong>📧 altarlife@gmail.com</strong>
-      </p>
-
-      <p>
-        <a
-          class="bandcamp-button"
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=altarlife@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Send an Email
-        </a>
-      </p>
-
+      <p class="subtitle">Thank you for visiting The Terry Kashian Library.</p>
+      <p class="intro">Whether you have a question about a song, an audiobook, a teaching, a story, would like to invite me to minister, or simply want to share how the Lord has encouraged you through this library, you're always welcome to write.</p>
+      <p class="intro">It is my prayer that these songs, stories, audiobooks, and teachings continue to encourage you in Christ and draw you deeper into His life.</p>
+      <p class="intro">I read every message personally and look forward to hearing from you.</p>
+      <p class="intro"><strong>📧 altarlife@gmail.com</strong></p>
+      <p><a class="bandcamp-button" href="mailto:altarlife@gmail.com?subject=Message%20from%20The%20Terry%20Kashian%20Library">Send an Email</a></p>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>© The Terry Kashian Library</p>
-
-    <p>
-      <a class="footer-bandcamp" href="library.html">
-        Return to the Library
-      </a>
-    </p>
+    <p><a class="footer-bandcamp" href="library.html">Return to the Library</a></p>
   </footer>
 
+  <script>
+    (() => {
+      const purchase = new URLSearchParams(window.location.search).get("purchase");
+      const books = {
+        "empowered-for-purpose": "Empowered for Purpose",
+        "misunderstood-assembly": "The Misunderstood Assembly",
+        "the-blueprint": "The Blueprint"
+      };
+      const title = books[purchase];
+      if (!title) return;
+
+      const panel = document.getElementById("payment-confirmation");
+      const heading = document.getElementById("payment-title");
+      const email = document.getElementById("payment-email");
+      const subject = encodeURIComponent(title + " Payment Notice");
+      const body = encodeURIComponent(
+        "I have sent my $10 payment for " + title + ".\n\n" +
+        "Payment method (Zelle, Cash App, or Venmo):\n" +
+        "My name:\n" +
+        "Name used for my payment:\n" +
+        "My delivery email address:\n"
+      );
+
+      heading.textContent = title + " Payment Confirmation";
+      email.href = "mailto:altarlife@gmail.com?subject=" + subject + "&body=" + body;
+      panel.hidden = false;
+    })();
+  </script>
 </body>
 </html>
