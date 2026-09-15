@@ -1,8 +1,13 @@
 {
-  "lastSync": "2026-09-14T20:56:52.194Z",
-  "catalogReleaseCount": 186,
-  "libraryReleaseCount": 187,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-09-15T20:14:49.688Z",
+  "catalogReleaseCount": 187,
+  "libraryReleaseCount": 188,
+  "newReleaseCount": 1,
+  "imported": [
+    {
+      "title": "The Stone of Deliverance",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-stone-of-deliverance"
+    }
+  ],
   "outcome": "success"
 }
