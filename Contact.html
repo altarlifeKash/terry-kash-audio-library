@@ -3,80 +3,106 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Contact Terry Kashian and The Terry Kashian Library." />
   <title>Contact | The Terry Kashian Library</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    .payment-confirmation { margin: 0 0 2rem; padding: 1.5rem; border: 2px solid #d4af55; border-radius: 16px; background: #fffaf0; }
-    .payment-confirmation h2 { margin: .2rem 0 .8rem; color: #681f32; }
+    .contact-card { max-width: 760px; margin: 2rem auto; padding: 2rem; border: 2px solid #d4af55; border-radius: 18px; background: #fffaf0; }
+    .contact-card h1 { color: #681f32; }
+    .contact-form { display: grid; gap: 1rem; margin-top: 1.5rem; }
+    .contact-form label { display: grid; gap: .4rem; color: #681f32; font-weight: 700; }
+    .contact-form input, .contact-form select, .contact-form textarea { box-sizing: border-box; width: 100%; padding: .8rem; border: 1px solid #b89a55; border-radius: 8px; font: inherit; }
+    .contact-form textarea { min-height: 120px; }
+    .payment-fields { padding: 1rem; border: 1px solid #d4af55; border-radius: 12px; }
+    .success { padding: 1rem; margin-bottom: 1rem; border-left: 4px solid #25834b; background: #edf8ef; color: #1e5d35; font-weight: 700; }
   </style>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-
   <header class="site-header">
-    <a class="brand" href="library.html" aria-label="The Terry Kashian Library home">
-      <span class="brand-mark" aria-hidden="true">TK</span>
+    <a class="brand" href="library.html">
+      <span class="brand-mark">TK</span>
       <span>The Terry Kashian Library</span>
     </a>
-    <div class="header-links">
-      <a class="back-link" href="library.html">← Back to Library</a>
-      <a class="back-link" href="index.html">Entrance</a>
-    </div>
+    <a class="back-link" href="library.html">← Back to Library</a>
   </header>
 
-  <main id="main-content">
-    <section class="library-intro" aria-labelledby="contact-title">
-      <div class="payment-confirmation" id="payment-confirmation" hidden aria-live="polite">
-        <p class="eyebrow">Payment Confirmation</p>
-        <h2 id="payment-title">Thank You for Your Payment</h2>
-        <p class="intro">Please send your payment details so Terry can confirm your purchase and email your private digital edition within 24 hours.</p>
-        <p><a class="bandcamp-button" id="payment-email" href="mailto:altarlife@gmail.com">Send Payment Confirmation</a></p>
+  <main>
+    <section class="contact-card">
+      <div class="success" id="success" hidden>
+        Thank you. Your confirmation has been sent to Terry. Your digital edition will be delivered within 24 hours after payment is confirmed.
       </div>
 
-      <p class="eyebrow">Connect</p>
-      <h1 id="contact-title">I'd Love to Hear From You</h1>
-      <p class="subtitle">Thank you for visiting The Terry Kashian Library.</p>
-      <p class="intro">Whether you have a question about a song, an audiobook, a teaching, a story, would like to invite me to minister, or simply want to share how the Lord has encouraged you through this library, you're always welcome to write.</p>
-      <p class="intro">It is my prayer that these songs, stories, audiobooks, and teachings continue to encourage you in Christ and draw you deeper into His life.</p>
-      <p class="intro">I read every message personally and look forward to hearing from you.</p>
-      <p class="intro"><strong>📧 altarlife@gmail.com</strong></p>
-      <p><a class="bandcamp-button" href="mailto:altarlife@gmail.com?subject=Message%20from%20The%20Terry%20Kashian%20Library">Send an Email</a></p>
+      <p class="eyebrow" id="kicker">Connect</p>
+      <h1 id="title">I'd Love to Hear From You</h1>
+      <p id="intro">Send a message directly to Terry Kashian.</p>
+
+      <form class="contact-form" action="https://formspree.io/f/myezgjqz" method="POST">
+        <input type="hidden" name="_next" value="https://terrykashlibrary.com/Contact.html?sent=1" />
+        <input type="hidden" name="_subject" id="subject" value="Message from The Terry Kashian Library" />
+        <input type="hidden" name="Book Purchased" id="book" value="" />
+
+        <label>Your name
+          <input type="text" name="Name" required />
+        </label>
+
+        <label>Your email address
+          <input type="email" name="Email" required />
+        </label>
+
+        <div class="payment-fields" id="payment-fields" hidden>
+          <label>Payment method
+            <select name="Payment Method" id="method">
+              <option value="">Choose one</option>
+              <option>Zelle</option>
+              <option>Cash App</option>
+              <option>Venmo</option>
+            </select>
+          </label>
+
+          <label>Name used for payment
+            <input type="text" name="Payment Name" id="payment-name" />
+          </label>
+        </div>
+
+        <label>Message
+          <textarea name="Message" id="message" required></textarea>
+        </label>
+
+        <button class="bandcamp-button" type="submit" id="send">Send Message</button>
+      </form>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>© The Terry Kashian Library</p>
-    <p><a class="footer-bandcamp" href="library.html">Return to the Library</a></p>
   </footer>
 
   <script>
-    (() => {
-      const purchase = new URLSearchParams(window.location.search).get("purchase");
-      const books = {
-        "empowered-for-purpose": "Empowered for Purpose",
-        "misunderstood-assembly": "The Misunderstood Assembly",
-        "the-blueprint": "The Blueprint"
-      };
-      const title = books[purchase];
-      if (!title) return;
+    const params = new URLSearchParams(window.location.search);
+    const books = {
+      blueprint: "The Blueprint",
+      "the-blueprint": "The Blueprint",
+      assembly: "The Misunderstood Assembly",
+      "misunderstood-assembly": "The Misunderstood Assembly",
+      "empowered-for-purpose": "Empowered for Purpose"
+    };
+    const book = books[params.get("purchase")];
 
-      const panel = document.getElementById("payment-confirmation");
-      const heading = document.getElementById("payment-title");
-      const email = document.getElementById("payment-email");
-      const subject = encodeURIComponent(title + " Payment Notice");
-      const body = encodeURIComponent(
-        "I have sent my $10 payment for " + title + ".\n\n" +
-        "Payment method (Zelle, Cash App, or Venmo):\n" +
-        "My name:\n" +
-        "Name used for my payment:\n" +
-        "My delivery email address:\n"
-      );
+    if (params.get("sent") === "1") {
+      document.getElementById("success").hidden = false;
+    }
 
-      heading.textContent = title + " Payment Confirmation";
-      email.href = "mailto:altarlife@gmail.com?subject=" + subject + "&body=" + body;
-      panel.hidden = false;
-    })();
+    if (book) {
+      document.getElementById("kicker").textContent = "Payment Confirmation";
+      document.getElementById("title").textContent = book + " Payment Confirmation";
+      document.getElementById("intro").textContent = "Complete this form after sending your $10 payment. Terry will confirm it and send your private digital edition within 24 hours.";
+      document.getElementById("subject").value = book + " Payment Confirmation";
+      document.getElementById("book").value = book;
+      document.getElementById("payment-fields").hidden = false;
+      document.getElementById("method").required = true;
+      document.getElementById("payment-name").required = true;
+      document.getElementById("message").value = "I have sent my $10 payment for " + book + ".";
+      document.getElementById("send").textContent = "Send Payment Confirmation";
+    }
   </script>
 </body>
 </html>
