@@ -1,8 +1,13 @@
 {
-  "lastSync": "2026-09-16T20:06:59.864Z",
-  "catalogReleaseCount": 187,
-  "libraryReleaseCount": 188,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-09-17T20:19:44.460Z",
+  "catalogReleaseCount": 188,
+  "libraryReleaseCount": 189,
+  "newReleaseCount": 1,
+  "imported": [
+    {
+      "title": "Mama I Miss You So",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/mama-i-miss-you-so-2"
+    }
+  ],
   "outcome": "success"
 }
