@@ -2373,6 +2373,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/mama-i-miss-you-so-2",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "the-corporate-warrior-in-prayer",
+      "title": "The Corporate Warrior In Prayer",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-17",
+      "description": "“Fight the battle in the body, don’t fight alone.”",
+      "artwork": "https://f4.bcbits.com/img/a4210665757_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-corporate-warrior-in-prayer",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
