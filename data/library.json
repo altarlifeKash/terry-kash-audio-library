@@ -2385,6 +2385,30 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/the-corporate-warrior-in-prayer",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "jessica-my-daughter",
+      "title": "Jessica, My Daughter",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-19",
+      "description": "“Jessica, My Daughter” is one of the most personal songs I have written. It comes from the perspective of a father looking back over the years and seeing life with greater understanding. Time has a way of teaching us things we could not always see while we were living through them. We grow, we learn, and sometimes we come to understand more deeply how our words, choices, and priorities affected the people we love mo…",
+      "artwork": "https://f4.bcbits.com/img/a1172695636_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/jessica-my-daughter",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "staying-in-the-vine",
+      "title": "Staying In The Vine",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-18",
+      "description": "“Staying in the Vine” is a joyful celebration of the life we share in Christ—the true Vine.",
+      "artwork": "https://f4.bcbits.com/img/a0646349585_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/staying-in-the-vine",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
