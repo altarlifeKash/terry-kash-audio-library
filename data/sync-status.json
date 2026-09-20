@@ -1,16 +1,12 @@
 {
-  "lastSync": "2026-09-19T19:19:15.500Z",
-  "catalogReleaseCount": 191,
-  "libraryReleaseCount": 192,
-  "newReleaseCount": 2,
+  "lastSync": "2026-09-20T19:26:55.581Z",
+  "catalogReleaseCount": 192,
+  "libraryReleaseCount": 193,
+  "newReleaseCount": 1,
   "imported": [
     {
-      "title": "Jessica, My Daughter",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/jessica-my-daughter"
-    },
-    {
-      "title": "Staying In The Vine",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/staying-in-the-vine"
+      "title": "The Dream Fulfilled",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-dream-fulfilled"
     }
   ],
   "outcome": "success"

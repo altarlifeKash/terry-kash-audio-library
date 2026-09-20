@@ -2409,6 +2409,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/staying-in-the-vine",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "the-dream-fulfilled",
+      "title": "The Dream Fulfilled",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-19",
+      "description": "“The Dream Fulfilled” tells the story of Joseph from the first dream of his youth to the moment when the purpose behind that dream finally came into view.",
+      "artwork": "https://f4.bcbits.com/img/a2079237946_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-dream-fulfilled",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
