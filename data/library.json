@@ -2433,6 +2433,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/him-possible",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "listen-to-the-spirit",
+      "title": "Listen To The Spirit",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-22",
+      "description": "“Listen to the Spirit” is a joyful, urgent call to turn down the noise and hear what the Spirit is saying.",
+      "artwork": "https://f4.bcbits.com/img/a3178510933_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/listen-to-the-spirit",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
