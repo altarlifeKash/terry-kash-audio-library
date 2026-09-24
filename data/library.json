@@ -2445,6 +2445,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/listen-to-the-spirit",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "on-the-rooftop",
+      "title": "On The Rooftop",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-24",
+      "description": "“On A Rooftop” is a true story from my life. As a young man, I reached a place of such darkness and despair that I believed there was no way back. Then, on a rooftop in Milwaukee, I saw a child’s crayon sign in a window across the alley. It simply said, “Jesus Loves YOU.” Those three words kept echoing in my mind. What followed became a turning point in my life—a story of mercy, a new beginning, and the love of Jesu…",
+      "artwork": "https://f4.bcbits.com/img/a1786574724_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/on-the-rooftop",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
