@@ -2457,6 +2457,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/on-the-rooftop",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "for-the-sake-of-the-whole",
+      "title": "For the Sake of the Whole",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-24",
+      "description": "“For the Sake of the Whole” is a song about grace without superiority.",
+      "artwork": "https://f4.bcbits.com/img/a1122935535_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/for-the-sake-of-the-whole",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
