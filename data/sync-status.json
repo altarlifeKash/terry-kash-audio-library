@@ -1,8 +1,17 @@
 {
-  "lastSync": "2026-09-29T21:24:00.450Z",
-  "catalogReleaseCount": 198,
-  "libraryReleaseCount": 199,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-09-30T21:25:34.975Z",
+  "catalogReleaseCount": 200,
+  "libraryReleaseCount": 201,
+  "newReleaseCount": 2,
+  "imported": [
+    {
+      "title": "Open My Ears, Lord",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/open-my-ears-lord"
+    },
+    {
+      "title": "A Giant-Size Future",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-giant-size-future"
+    }
+  ],
   "outcome": "success"
 }
