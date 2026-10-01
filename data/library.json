@@ -2517,6 +2517,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/a-giant-size-future",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "the-clarion-call-to-fermanagh",
+      "title": "The Clarion Call to Fermanagh",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-09-30",
+      "description": "“A Clarion Call For Fermanagh” is dedicated to my friend Andy Rogers, who travels through the counties of his native Ireland, writing songs inspired by the places he visits. His work inspired me to write this song for Fermanagh. Andy, thank you for encouraging me through your example to give this county a song of my own. With the warmth of a Celtic folk ballad, acoustic guitar, piano, fiddle, and rising harmonies ca…",
+      "artwork": "https://f4.bcbits.com/img/a1898220368_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-clarion-call-to-fermanagh",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
