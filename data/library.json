@@ -2529,6 +2529,30 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/the-clarion-call-to-fermanagh",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "z-i-sh-n-de-gu-d-l-hu-nw",
+      "title": "Zài Shén de guódù lǐ huānwǔ",
+      "type": "song",
+      "language": "Chinese",
+      "releaseDate": "2026-10-03",
+      "description": "《在神的国度里欢舞》唱出我们在耶稣基督里的自由与喜乐。羔羊已经复活，耶稣如今掌权作王，我们今天就活在祂的国度里！这首歌邀请神的儿女放声赞美、尽情欢舞，以感恩的心回应祂的恩典。",
+      "artwork": "https://f4.bcbits.com/img/a3320051304_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/z-i-sh-n-de-gu-d-l-hu-nw",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "dancing-in-the-kingdom",
+      "title": "Dancing in the Kingdom",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-10-03",
+      "description": "“Dancing in the Kingdom” is a joyful celebration of the freedom we have in Jesus Christ. The Lamb has risen, the King reigns, and we are living in His Kingdom now! With its invitation to “Dance, Christian, dance,” this song calls us to lift our voices, move our feet, and celebrate the One who has set us free.",
+      "artwork": "https://f4.bcbits.com/img/a0479628641_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/dancing-in-the-kingdom",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }

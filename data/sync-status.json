@@ -1,8 +1,17 @@
 {
-  "lastSync": "2026-10-02T21:19:38.538Z",
-  "catalogReleaseCount": 201,
-  "libraryReleaseCount": 202,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-10-03T19:50:16.946Z",
+  "catalogReleaseCount": 203,
+  "libraryReleaseCount": 204,
+  "newReleaseCount": 2,
+  "imported": [
+    {
+      "title": "Zài Shén de guódù lǐ huānwǔ",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/z-i-sh-n-de-gu-d-l-hu-nw"
+    },
+    {
+      "title": "Dancing in the Kingdom",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/dancing-in-the-kingdom"
+    }
+  ],
   "outcome": "success"
 }
