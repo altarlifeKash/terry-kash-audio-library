@@ -2553,6 +2553,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/dancing-in-the-kingdom",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "unleash-the-greater",
+      "title": "Unleash The Greater",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-10-04",
+      "description": "Have you ever seen someone hurting and wondered what you could possibly offer? Your mind rehearses your failures, and you begin measuring the need against your own limitations. “Unleashing the Greater” begins in that moment—and invites us to discover the life of Christ within.",
+      "artwork": "https://f4.bcbits.com/img/a0897638475_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/unleash-the-greater",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
