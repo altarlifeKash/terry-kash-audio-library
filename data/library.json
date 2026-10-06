@@ -2579,6 +2579,30 @@
       "reviewFlags": [
         "description"
       ]
+    },
+    {
+      "id": "danza-creyente-danza",
+      "title": "¡Danza, Creyente, Danza!",
+      "type": "song",
+      "language": "Spanish",
+      "releaseDate": "2026-10-06",
+      "description": "¡El Cordero resucitó y Jesús nos hizo libres!",
+      "artwork": "https://f4.bcbits.com/img/a3750095541_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/danza-creyente-danza",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "se-or-jes-s-te-amo",
+      "title": "Señor Jesús, Te Amo",
+      "type": "song",
+      "language": "Spanish",
+      "releaseDate": "2026-10-06",
+      "description": "«Señor Jesús, ¿te he dicho hoy que te amo?»",
+      "artwork": "https://f4.bcbits.com/img/a1974386874_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/se-or-jes-s-te-amo",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }

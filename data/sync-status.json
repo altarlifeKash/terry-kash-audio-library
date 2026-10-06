@@ -1,12 +1,16 @@
 {
-  "lastSync": "2026-10-05T23:10:05.269Z",
-  "catalogReleaseCount": 205,
-  "libraryReleaseCount": 206,
-  "newReleaseCount": 1,
+  "lastSync": "2026-10-06T21:37:25.747Z",
+  "catalogReleaseCount": 207,
+  "libraryReleaseCount": 208,
+  "newReleaseCount": 2,
   "imported": [
     {
-      "title": "Mama, I'll See You Again!",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/mama-ill-see-you-again"
+      "title": "¡Danza, Creyente, Danza!",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/danza-creyente-danza"
+    },
+    {
+      "title": "Señor Jesús, Te Amo",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/se-or-jes-s-te-amo"
     }
   ],
   "outcome": "success"
