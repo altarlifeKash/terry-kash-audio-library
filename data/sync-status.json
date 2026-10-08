@@ -1,8 +1,13 @@
 {
-  "lastSync": "2026-10-07T21:58:36.766Z",
-  "catalogReleaseCount": 207,
-  "libraryReleaseCount": 208,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-10-08T22:03:50.250Z",
+  "catalogReleaseCount": 208,
+  "libraryReleaseCount": 209,
+  "newReleaseCount": 1,
+  "imported": [
+    {
+      "title": "Cowboy Heaven",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/cowboy-heaven"
+    }
+  ],
   "outcome": "success"
 }

@@ -2603,6 +2603,20 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/se-or-jes-s-te-amo",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "cowboy-heaven",
+      "title": "Cowboy Heaven",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-10-07",
+      "description": "",
+      "artwork": "https://f4.bcbits.com/img/a2998472883_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/cowboy-heaven",
+      "featured": false,
+      "reviewFlags": [
+        "description"
+      ]
     }
   ]
 }
