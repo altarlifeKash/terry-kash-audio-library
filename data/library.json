@@ -2617,6 +2617,18 @@
       "reviewFlags": [
         "description"
       ]
+    },
+    {
+      "id": "drop-your-solo",
+      "title": "Drop Your Solo",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-10-08",
+      "description": "This song presents a modern, musical retelling of the Parable of the Prodigal Son, framed through the metaphor of music, dancing, and choral harmony. It traces a personal journey from self centered independence to complete reconciliation and community with God.",
+      "artwork": "https://f4.bcbits.com/img/a1637280742_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/drop-your-solo",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
