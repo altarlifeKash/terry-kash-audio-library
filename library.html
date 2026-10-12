@@ -13,6 +13,17 @@
 
   <link rel="stylesheet" href="styles.css" />
   <script src="script.js" defer></script>
+  <style>
+    .library-header-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .contact-nav-link { display: inline-flex; align-items: center; min-height: 44px; padding: .6rem 1rem; border: 1px solid #d4af55; border-radius: 999px; background: #681f32; color: #fffaf0; font-size: .9rem; font-weight: 700; text-decoration: none; }
+    .contact-nav-link:hover { background: #842b43; }
+    .contact-footer-link { color: #681f32; font-family: Arial, Helvetica, sans-serif; font-weight: 700; text-underline-offset: .2em; }
+    @media (max-width: 760px) {
+      .site-header { flex-wrap: wrap; gap: 1rem; padding-block: 1rem; }
+      .site-header .brand { flex-shrink: 1; white-space: normal; }
+      .library-header-nav { width: 100%; justify-content: space-between; }
+    }
+  </style>
 </head>
 
 <body>
@@ -24,9 +35,12 @@
       <span>The Terry Kashian Library</span>
     </a>
 
-    <a class="back-link" href="index.html">
-      <span aria-hidden="true">←</span> Back to Entrance
-    </a>
+    <nav class="library-header-nav" aria-label="Main navigation">
+      <a class="back-link" href="index.html">
+        <span aria-hidden="true">←</span> Back to Entrance
+      </a>
+      <a class="contact-nav-link" href="Contact.html">Contact Me</a>
+    </nav>
   </header>
 
   <main id="main-content">
@@ -71,6 +85,6 @@
     </section>
   </main>
 
-  <footer class="site-footer"><p>© <span id="current-year">2026</span> The Terry Kashian Library</p><a class="footer-bandcamp" href="https://terrykash.bandcamp.com" target="_blank" rel="noopener">Visit Terry Kashian on Bandcamp <span aria-hidden="true">↗</span></a></footer>
+  <footer class="site-footer"><p>© <span id="current-year">2026</span> The Terry Kashian Library</p><a class="footer-bandcamp" href="https://terrykash.bandcamp.com" target="_blank" rel="noopener">Visit Terry Kashian on Bandcamp <span aria-hidden="true">↗</span></a><a class="contact-footer-link" href="Contact.html">Contact Me</a></footer>
 </body>
 </html>
