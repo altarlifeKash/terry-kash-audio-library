@@ -11,9 +11,21 @@
   <title>The Terry Kashian Library</title>
   <link rel="stylesheet" href="entrance.css" />
   <script src="entrance.js" defer></script>
+  <style>
+    .entrance-contact {
+      position: fixed; top: 1rem; right: 1rem; z-index: 2;
+      display: inline-flex; align-items: center; min-height: 44px;
+      padding: .65rem 1.15rem; border: 1px solid #d4af55; border-radius: 999px;
+      background: #681f32; color: #fffaf0; font: 700 .95rem/1.4 Arial, Helvetica, sans-serif;
+      text-decoration: none; box-shadow: 0 4px 18px rgba(0, 0, 0, .3);
+    }
+    .entrance-contact:hover { background: #842b43; }
+    .entrance-contact:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+  </style>
 </head>
 
 <body>
+  <a class="entrance-contact" href="Contact.html">Contact Me</a>
   <main class="entrance-screen">
     <h1 class="visually-hidden">The Terry Kashian Library</h1>
     <div class="entrance-poster">
