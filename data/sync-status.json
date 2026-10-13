@@ -1,17 +1,8 @@
 {
-  "lastSync": "2026-10-12T23:37:23.669Z",
+  "lastSync": "2026-10-13T21:50:53.077Z",
   "catalogReleaseCount": 211,
   "libraryReleaseCount": 212,
-  "newReleaseCount": 2,
-  "imported": [
-    {
-      "title": "Who's Really Left Behind?",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/whos-really-left-behind"
-    },
-    {
-      "title": "Cowboy Heaven Too",
-      "bandcampUrl": "https://terrykash.bandcamp.com/track/cowboy-heaven-too"
-    }
-  ],
+  "newReleaseCount": 0,
+  "imported": [],
   "outcome": "success"
 }
