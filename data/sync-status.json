@@ -1,8 +1,13 @@
 {
-  "lastSync": "2026-10-13T21:50:53.077Z",
-  "catalogReleaseCount": 211,
-  "libraryReleaseCount": 212,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-10-14T20:42:35.105Z",
+  "catalogReleaseCount": 212,
+  "libraryReleaseCount": 213,
+  "newReleaseCount": 1,
+  "imported": [
+    {
+      "title": "The Camels Are Returning",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-camels-are-returning"
+    }
+  ],
   "outcome": "success"
 }
