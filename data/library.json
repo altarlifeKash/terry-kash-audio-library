@@ -2665,6 +2665,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/the-camels-are-returning",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "joy-to-all-generations",
+      "title": "Joy To All Generations",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-10-14",
+      "description": "“Joy To All Generations” is a country folk ballad celebrating the joy of God’s life expressed through His people. Gentle acoustic textures and a memorable puckered-whistle melody carry a message of welcome, hope, and love that reaches beyond ourselves.",
+      "artwork": "https://f4.bcbits.com/img/a0703717717_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/joy-to-all-generations",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
