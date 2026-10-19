@@ -1,8 +1,13 @@
 {
-  "lastSync": "2026-10-18T19:25:25.362Z",
-  "catalogReleaseCount": 213,
-  "libraryReleaseCount": 214,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-10-19T21:31:49.794Z",
+  "catalogReleaseCount": 214,
+  "libraryReleaseCount": 215,
+  "newReleaseCount": 1,
+  "imported": [
+    {
+      "title": "Praise Him Through The Tears",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/praise-him-through-the-tears"
+    }
+  ],
   "outcome": "success"
 }

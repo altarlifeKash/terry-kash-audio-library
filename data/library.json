@@ -2677,6 +2677,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/joy-to-all-generations",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "praise-him-through-the-tears",
+      "title": "Praise Him Through The Tears",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-10-18",
+      "description": "“Praise Him Through the Tears” is a heartfelt country ballad for the days when strength runs low, questions fill the mind, and it’s difficult to find a song.",
+      "artwork": "https://f4.bcbits.com/img/a1675591917_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/praise-him-through-the-tears",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
