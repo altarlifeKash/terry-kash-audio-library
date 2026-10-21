@@ -1,8 +1,13 @@
 {
-  "lastSync": "2026-10-20T20:34:20.918Z",
-  "catalogReleaseCount": 214,
-  "libraryReleaseCount": 215,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-10-21T20:37:29.678Z",
+  "catalogReleaseCount": 215,
+  "libraryReleaseCount": 216,
+  "newReleaseCount": 1,
+  "imported": [
+    {
+      "title": "The Spark",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-spark"
+    }
+  ],
   "outcome": "success"
 }
