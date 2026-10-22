@@ -2701,6 +2701,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/the-spark",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "bandcamp-track-456588105",
+      "title": "祢开启了我的心",
+      "type": "song",
+      "language": "Chinese",
+      "releaseDate": "2026-10-22",
+      "description": "河边的一次聆听，开启了一生的托付。",
+      "artwork": "https://f4.bcbits.com/img/a1574724016_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/--7",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
