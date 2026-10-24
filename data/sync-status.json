@@ -1,8 +1,13 @@
 {
-  "lastSync": "2026-10-23T20:36:43.243Z",
-  "catalogReleaseCount": 216,
-  "libraryReleaseCount": 217,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-10-24T19:29:04.296Z",
+  "catalogReleaseCount": 217,
+  "libraryReleaseCount": 218,
+  "newReleaseCount": 1,
+  "imported": [
+    {
+      "title": "Life in the City",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/life-in-the-city"
+    }
+  ],
   "outcome": "success"
 }
