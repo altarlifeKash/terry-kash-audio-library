@@ -2737,6 +2737,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/his-grace-appearing",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "just-counting-the-beat-2",
+      "title": "Just Counting the Beat",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-10-27",
+      "description": "Just Counting the Beat",
+      "artwork": "https://f4.bcbits.com/img/a3430310963_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/just-counting-the-beat-2",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
