@@ -2749,6 +2749,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/just-counting-the-beat-2",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "the-eight-count-dance",
+      "title": "The Eight Count Dance",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-10-28",
+      "description": "“The Eight Count Dance”",
+      "artwork": "https://f4.bcbits.com/img/a1264827226_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-eight-count-dance",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
