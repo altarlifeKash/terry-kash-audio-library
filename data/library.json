@@ -2773,6 +2773,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/what-is-man",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "friends",
+      "title": "FRIENDS",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-10-31",
+      "description": "A friend of mine told me one day, \"You're my only friend.\" I didn't know what to do with a weight like that, so I told him the only true thing I had: We don't make friends. We learn to be friendly — and friends happen. And the same day another friend of mine was talking about friends and Facebook. And I shared with him about being a friend is the way to having friends. He then said to me, \"You ought to write a song…",
+      "artwork": "https://f4.bcbits.com/img/a0903759576_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/friends",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
