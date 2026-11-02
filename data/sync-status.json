@@ -1,8 +1,13 @@
 {
-  "lastSync": "2026-11-01T21:11:06.689Z",
-  "catalogReleaseCount": 222,
-  "libraryReleaseCount": 223,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-11-02T23:52:43.692Z",
+  "catalogReleaseCount": 223,
+  "libraryReleaseCount": 224,
+  "newReleaseCount": 1,
+  "imported": [
+    {
+      "title": "Walking in White",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/walking-in-white"
+    }
+  ],
   "outcome": "success"
 }
