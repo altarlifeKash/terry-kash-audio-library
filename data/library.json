@@ -2797,6 +2797,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/walking-in-white",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "turn-and-call",
+      "title": "Turn and Call",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-11-03",
+      "description": "\"Turn and Call\" is built on the simplest practice in the Christian life: turn to the Lord, and call on His name — \"O Lord Jesus!\"",
+      "artwork": "https://f4.bcbits.com/img/a3671160775_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/turn-and-call",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
