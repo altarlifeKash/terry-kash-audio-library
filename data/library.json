@@ -2833,6 +2833,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/do-not-fear-only-believe",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "the-battle-for-the-castle",
+      "title": "The Battle For The Castle",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-11-07",
+      "description": "You may know John Bunyan through *The Pilgrim’s Progress*. He also wrote *The Holy War*, an allegory about a town called Mansoul, where a lie finds its way in through Ear Gate. Bunyan’s picture of the human soul inspired me to write “The Battle For The Castle.” I wanted to sing about what happens when Emmanuel comes to reclaim a heart that has learned to trust the wrong voice.",
+      "artwork": "https://f4.bcbits.com/img/a1984907966_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/the-battle-for-the-castle",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
