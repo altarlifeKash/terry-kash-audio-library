@@ -2845,6 +2845,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/the-battle-for-the-castle",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "a-little-while-at-the-table",
+      "title": "A Little While At The Table",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-11-08",
+      "description": "Marcia asked me to write a song for Bobby, her husband of fifty-five years. One line in her letter stayed with me. She still looks forward to him coming home and sitting at the table for a little while, just to be with her. I’ve known them since 1981, and I’ve seen what faith and forgiveness have meant in their marriage. That little moment at the table is the part of their story Marcia most wanted Bobby to hear.",
+      "artwork": "https://f4.bcbits.com/img/a1163623924_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-little-while-at-the-table",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
