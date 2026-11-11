@@ -1,8 +1,17 @@
 {
-  "lastSync": "2026-11-10T22:22:05.547Z",
-  "catalogReleaseCount": 228,
-  "libraryReleaseCount": 229,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-11-11T23:27:34.634Z",
+  "catalogReleaseCount": 230,
+  "libraryReleaseCount": 231,
+  "newReleaseCount": 2,
+  "imported": [
+    {
+      "title": "Tak Ada Penghukuman — No Condemnation",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/tak-ada-penghukuman-no-condemnation"
+    },
+    {
+      "title": "“Hidupku Menjadi Ibadah”",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/hidupku-menjadi-ibadah"
+    }
+  ],
   "outcome": "success"
 }
