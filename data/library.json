@@ -2881,6 +2881,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/hidupku-menjadi-ibadah",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "restored",
+      "title": "RESTORED",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-11-12",
+      "description": "Have you ever felt that life’s best days were behind you?",
+      "artwork": "https://f4.bcbits.com/img/a0755764625_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/restored",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
