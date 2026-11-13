@@ -2893,6 +2893,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/restored",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "anak-domba-allah-lamb-of-god",
+      "title": "ANAK DOMBA ALLAH - LAMB OF GOD",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-11-13",
+      "description": "ANAK DOMBA ALLAH — THE LAMB OF GOD",
+      "artwork": "https://f4.bcbits.com/img/a0683114094_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/anak-domba-allah-lamb-of-god",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
