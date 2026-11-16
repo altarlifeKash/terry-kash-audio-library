@@ -55,6 +55,12 @@ export function detectLanguage({ title = "", description = "", lyrics = "" }) {
   const normalizedHeading = heading.toLocaleLowerCase();
   const normalized = `${heading}\n${body}`.toLocaleLowerCase();
   if (
+    /\b(bahasa indonesia|indonesian (?:version|lyrics|song))\b/u.test(normalized) ||
+    /\b(hidupku|penghukuman|anak domba)\b/u.test(normalizedHeading)
+  ) {
+    return "Bahasa Indonesia";
+  }
+  if (
     /[ñ¿¡]/u.test(heading) ||
     /\b(el|la|los|las|señor|reino|corazón|español)\b/u.test(normalizedHeading)
   ) {
