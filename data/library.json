@@ -2905,6 +2905,30 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/anak-domba-allah-lamb-of-god",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "a-beating-heart-behind-the-sound",
+      "title": "A Beating Heart Behind the Sound",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-11-19",
+      "description": "A Beating Heart Behind the Sound",
+      "artwork": "https://f4.bcbits.com/img/a3844964544_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/a-beating-heart-behind-the-sound",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "follow",
+      "title": "Follow",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-11-19",
+      "description": "\"Follow\" is an upbeat, faith-centered anthem that celebrates personal transformation and stepping out in bold faith. Using familiar biblical imagery—like leaving behind nets and walking on water—the song inspires listeners to let go of the past and embrace lasting spiritual joy.",
+      "artwork": "https://f4.bcbits.com/img/a2035905986_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/follow",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
