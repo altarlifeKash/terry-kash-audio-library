@@ -2929,6 +2929,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/follow",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "jesusly-human",
+      "title": "Jesusly Human",
+      "type": "song",
+      "language": "English",
+      "releaseDate": "2026-11-21",
+      "description": "I wrote Jesusly Human as a prayer. Jesus walked dusty roads, ate with His friends, and stopped when someone called out to Him. In those ordinary moments, people met the Father through Him. That’s what I’m asking for when I sing, “Oh, make me Jesusly human.” Lord, let somebody meet You in the way I listen, in what I say, and in whether I stop for them along the way.",
+      "artwork": "https://f4.bcbits.com/img/a0888903360_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/jesusly-human",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
