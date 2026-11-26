@@ -2953,6 +2953,18 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/--8",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "bilingual-more-than-a-pile-of-stones",
+      "title": "Bilingual: More Than A Pile of Stones",
+      "type": "song",
+      "language": "Chinese",
+      "releaseDate": "2026-11-25",
+      "description": "一块死寂的石头，能给活着的灵魂什么？",
+      "artwork": "https://f4.bcbits.com/img/a2855960580_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/bilingual-more-than-a-pile-of-stones",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }
