@@ -2965,6 +2965,42 @@
       "bandcampUrl": "https://terrykash.bandcamp.com/track/bilingual-more-than-a-pile-of-stones",
       "featured": false,
       "reviewFlags": []
+    },
+    {
+      "id": "you-are-with-me",
+      "title": "你與我同在 (You Are With Me)",
+      "type": "song",
+      "language": "Chinese",
+      "releaseDate": "2026-11-27",
+      "description": "你與我同在 (You Are With Me)",
+      "artwork": "https://f4.bcbits.com/img/a0656172162_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/you-are-with-me",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "singing-butterfly",
+      "title": "会唱歌的蝴蝶 (Singing Butterfly)",
+      "type": "song",
+      "language": "Chinese",
+      "releaseDate": "2026-11-27",
+      "description": "她翅膀里的音乐 · Music in Her Wings",
+      "artwork": "https://f4.bcbits.com/img/a2862575001_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/singing-butterfly",
+      "featured": false,
+      "reviewFlags": []
+    },
+    {
+      "id": "music-in-her-wings",
+      "title": "她翅膀里的音乐 · Music in Her Wings",
+      "type": "song",
+      "language": "Chinese",
+      "releaseDate": "2026-11-27",
+      "description": "她翅膀里的音乐 · Music in Her Wings",
+      "artwork": "https://f4.bcbits.com/img/a3159807411_10.jpg",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/music-in-her-wings",
+      "featured": false,
+      "reviewFlags": []
     }
   ]
 }

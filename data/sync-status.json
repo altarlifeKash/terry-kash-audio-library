@@ -1,8 +1,21 @@
 {
-  "lastSync": "2026-11-27T01:00:40.842Z",
-  "catalogReleaseCount": 237,
-  "libraryReleaseCount": 238,
-  "newReleaseCount": 0,
-  "imported": [],
+  "lastSync": "2026-11-28T00:32:30.413Z",
+  "catalogReleaseCount": 240,
+  "libraryReleaseCount": 241,
+  "newReleaseCount": 3,
+  "imported": [
+    {
+      "title": "你與我同在 (You Are With Me)",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/you-are-with-me"
+    },
+    {
+      "title": "会唱歌的蝴蝶 (Singing Butterfly)",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/singing-butterfly"
+    },
+    {
+      "title": "她翅膀里的音乐 · Music in Her Wings",
+      "bandcampUrl": "https://terrykash.bandcamp.com/track/music-in-her-wings"
+    }
+  ],
   "outcome": "success"
 }
